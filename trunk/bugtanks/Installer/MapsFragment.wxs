@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+    <DirectoryRef Id="INSTALLDIR">
+      <Directory Id="MAPSDIR" Name="Map" />
+    </DirectoryRef>
+	</Fragment>
+  <Fragment Id="MapsFragment">
+    <ComponentGroup Id="MapsGroup">
+      <Component Id="jonismap" Directory="MAPSDIR" Guid="{0DF33A05-BF59-440e-820A-2B71EBDE7A86}">
+        <File Id="jonismap" KeyPath="yes" Source="..\..\Map\JONIS01.btm" />
+      </Component>
+      <Component Id="ystamap" Directory="MAPSDIR" Guid="{2EDF26F3-55CD-47bb-A3B6-CEC2FA200142}">
+        <File Id="ystamap" KeyPath="yes" Source="..\..\Map\COOLMAP.btm" />
+      </Component>
+      <Component Id="outpostmap" Directory="MAPSDIR" Guid="{83E1BA9E-6DA4-47B8-9D03-E793CD9CAB1D}">
+        <File Id="outpostmap" KeyPath="yes" Source="..\..\Map\OUTPOST.btm" />
+      </Component>
+      <Component Id="default" Directory="MAPSDIR" Guid="{699DEC02-168C-45af-ABAC-B23A69DBCCD7}">
+        <File Id="default" KeyPath="yes" Name="DEFAULT.btm" Source="..\..\Map\JONISFINAL.btm" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="MAPSDIR" />
+  </Fragment>
+</Wix>

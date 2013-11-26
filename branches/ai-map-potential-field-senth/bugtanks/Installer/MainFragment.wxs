@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="29E7E4D6-F93C-49df-BB3B-343D827E9485" Name="Bug Tanks" Language="1030" Codepage="1252" Version="0.5.1.1" Manufacturer="The A-Team" UpgradeCode="0C2A6D1A-DFFD-4983-8B7C-E836ABBEF566">
+    <Package Id="*" InstallerVersion="200" Compressed="yes" SummaryCodepage="1252" />
+
+    <Media Id="1" Cabinet="bugtanks.cab" EmbedCab="yes" />
+
+    <UIRef Id="WixUI_Mondo" />
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLDIR" Name="Bug Tanks">
+          <Directory Id="BINDIR" Name="bin">
+            <Directory Id="EXEDIR" Name="exe">
+
+              <Component Id="MainExecutable" Guid="1B892BFB-510B-46c5-8585-951EF04B3535">
+                <File Id="BugTanksEXE" Name="bugtanks.exe" Source="../Release/Main.exe" KeyPath="yes">
+                  <Shortcut Id="startMenuBugTanks" Directory="ProgramMenuDir" Name="Bug Tanks"
+                            WorkingDirectory="EXEDIR" Icon="BugTanks.ico" IconIndex="0" Advertise="yes" />
+                  <Shortcut Id="DesktopBugtanks" Directory="DesktopFolder" Name="Bug Tanks"
+                            WorkingDirectory="EXEDIR" Icon="BugTanks.ico" IconIndex="0" Advertise="yes" />
+                </File>
+              </Component>
+              
+              <Component Id="fmoddll" Guid="{2FDA6839-75F3-48bb-80CD-F96CE5622C8C}">
+                <File Id="fmodDLL" Name="fmodex.dll" Source="../../FMOD/fmodex.dll" KeyPath="yes" />
+              </Component>
+              <Component Id="pthreadsdll" Guid="{35812825-3FBB-433e-B867-980C569C1647}">
+                <File Id="pthreadsdll" Name="pthreadVCE2.dll" Source="../../pthreads/lib/pthreadVCE2.dll" KeyPath="yes" />
+              </Component>
+            </Directory>
+
+            <Component Id="config.ini" Guid="{0E6C5268-0B38-41a0-AC38-0616D6690B79}">
+              <File Id="configINI" Name="config.ini" Source="../config.ini" KeyPath="yes" />
+            </Component>
+
+            <Component Id="aiconstantsINI" Guid="{62A86CD1-887A-425c-9796-2A9A0840811A}">
+              <File Id="aiconstantsINI" Name="AiConstants.ini" Source="../AiConstants.ini" KeyPath="yes" />
+            </Component>
+
+            <Component Id="ActorConstantsini" Guid="{ED258859-DB99-4e36-B07E-AE7B32872917}">
+              <File Id="actorconstantsINI" Name="ActorConstants.ini" Source="../ActorConstants.ini" KeyPath="yes"  />
+            </Component>
+
+          </Directory>
+
+          <!--Maps-->
+          <Directory Id="Map" Name="Map">
+
+          </Directory>
+
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ProgramMenuDir" Name="Bug Tanks">
+          <Component Id="ProgramMenuDir" Guid="EA869909-5D4B-477c-9CC3-A8E0681EA25F">
+            <RemoveFolder Id="ProgramMenuDir" On="uninstall" />
+            <RegistryValue Root="HKCU" Key="Software\[Manufacturer]\[ProductName]" Type="string" Value="" KeyPath="yes" />
+          </Component>
+        </Directory>
+      </Directory>
+      
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+
+    <Feature Id="Complete" Title="Bug Tanks" Level="1" Description="The complete package"
+             ConfigurableDirectory="INSTALLDIR" >
+      <ComponentRef Id="MainExecutable" />
+      <ComponentRef Id="ProgramMenuDir" />
+      <ComponentRef Id="config.ini" />
+      <ComponentRef Id="aiconstantsINI" />
+      <ComponentRef Id="ActorConstantsini" />
+      <ComponentRef Id="fmoddll" />
+      <ComponentRef Id="pthreadsdll" />
+
+      <ComponentGroupRef Id="MusicGroup" />
+      <ComponentGroupRef Id="EffectsGroup" />
+
+      <ComponentGroupRef Id="ShadersGroup"/>
+
+      <ComponentGroupRef Id="TexturesGroup" />
+
+      <ComponentGroupRef Id="ModelsGroup" />
+    </Feature>
+
+    <Icon Id="BugTanks.ico" SourceFile="../../Files/BugTanks.ico" />
+
+  </Product>
+</Wix>

@@ -1,0 +1,1378 @@
+NumberOfMeshes: 1
+MeshName: polySurfaceShape1
+NumberOfVertices: 92
+-10 -9.53674e-006 10
+10 -9.53674e-006 10
+-7.81684 20 7.81684
+7.81684 20 7.81684
+-7.81684 20 -7.81684
+7.81684 20 -7.81684
+-10 -9.53674e-006 -10
+10 -9.53674e-006 -10
+-9.05363 30 9.05363
+9.05363 30 9.05363
+9.05363 30 -9.05363
+-9.05363 30 -9.05363
+-7.50545 30 7.50545
+7.50545 30 7.50545
+7.50545 30 -7.50545
+-7.50545 30 -7.50545
+-9.78956 40 9.78956
+9.78956 40 9.78956
+9.78956 40 -9.78956
+-9.78956 40 -9.78956
+-8.02528 40 8.02528
+8.02528 40 8.02528
+8.02528 40 -8.02528
+-8.02528 40 -8.02528
+-10.1353 50 10.1353
+10.1353 50 10.1353
+10.1353 50 -10.1353
+-10.1353 50 -10.1353
+-5.78599 50 5.78599
+5.78599 50 5.78599
+5.78599 50 -5.78599
+-5.78599 50 -5.78599
+-5.78599 53.3252 5.78599
+5.78599 53.3252 5.78599
+5.78599 53.3252 -5.78599
+-5.78599 53.3252 -5.78599
+-3.96644 53.3252 3.96644
+3.96644 53.3252 3.96644
+3.96644 53.3252 -3.96644
+-3.96644 53.3252 -3.96644
+-5.20863 60.5851 5.20863
+5.20863 60.5851 5.20863
+5.20863 60.5851 -5.20863
+-5.20863 60.5851 -5.20863
+-0.520221 72.441 0.520221
+0.520221 72.441 0.520221
+0.520221 72.441 -0.520221
+-0.520221 72.441 -0.520221
+-0.520221 84.1881 0.520221
+0.520221 84.1881 0.520221
+0.520221 84.1881 -0.520221
+-0.520221 84.1881 -0.520221
+-10 29.5 10
+10 29.5 10
+-10 30.5 10
+10 30.5 10
+-10 30.5 -10
+10 30.5 -10
+-10 29.5 -10
+10 29.5 -10
+-10 39.5 10
+10 39.5 10
+-10 40.5 10
+10 40.5 10
+-10 40.5 -10
+10 40.5 -10
+-10 39.5 -10
+10 39.5 -10
+-10 49.5 10
+10 49.5 10
+-10 50.5 10
+10 50.5 10
+-10 50.5 -10
+10 50.5 -10
+-10 49.5 -10
+10 49.5 -10
+-6.25534 53.0125 6.25534
+6.25534 53.0125 6.25534
+-6.25534 53.638 6.25534
+6.25534 53.638 6.25534
+-6.25534 53.638 -6.25534
+6.25534 53.638 -6.25534
+-6.25534 53.0125 -6.25534
+6.25534 53.0125 -6.25534
+-10 19.5 10
+10 19.5 10
+-10 20.5 10
+10 20.5 10
+-10 20.5 -10
+10 20.5 -10
+-10 19.5 -10
+10 19.5 -10
+
+NumberOfPolygons: 160
+VertexIndicies: 0 1 2
+Normal: 0 0.108514 0.994095
+Tangent: 1 0 0
+UV1: 0.375 0 
+UV2: 0.625 0 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 2 1 3
+Normal: 0 0.0316162 0.9995
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 48 49 51
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 51 49 50
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 4 5 6
+Normal: 0 -0.0459319 -0.998945
+Tangent: 0.755959 0.653928 -0.0300679
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.75
+MaterialIndex: 1
+
+VertexIndicies: 6 5 7
+Normal: 0 0.108514 -0.994095
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.5 
+UV3: 0.625 0.75
+MaterialIndex: 1
+
+VertexIndicies: 6 7 0
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.75 
+UV3: 0.375 1
+MaterialIndex: 1
+
+VertexIndicies: 0 7 1
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 1 
+UV2: 0.625 0.75 
+UV3: 0.625 1
+MaterialIndex: 1
+
+VertexIndicies: 1 7 3
+Normal: 0.994095 0.108514 0
+Tangent: 0 0 -1
+UV1: 0.625 0 
+UV2: 0.875 0 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 3 7 5
+Normal: 0.9995 0.0316162 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.875 0 
+UV3: 0.875 0.25
+MaterialIndex: 1
+
+VertexIndicies: 6 0 4
+Normal: -0.994095 0.108514 0
+Tangent: 0 0 1
+UV1: 0.125 0 
+UV2: 0.375 0 
+UV3: 0.125 0.25
+MaterialIndex: 1
+
+VertexIndicies: 4 0 2
+Normal: -0.9995 0.0316162 0
+Tangent: 0 0 1
+UV1: 0.125 0.25 
+UV2: 0.375 0 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 2 3 8
+Normal: 0 0.0316162 0.9995
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 8 3 9
+Normal: 0 -0.122744 0.992438
+Tangent: 0.54573 -0.831625 -0.102855
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 3 5 9
+Normal: 0.9995 0.0316162 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 9 5 10
+Normal: 0.992438 -0.122744 0
+Tangent: -0.102855 -0.831625 -0.54573
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 5 4 10
+Normal: 0 0.0316162 -0.9995
+Tangent: 1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 10 4 11
+Normal: 0 -0.122744 -0.992438
+Tangent: -0.54573 -0.831625 0.102855
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 4 2 11
+Normal: -0.9995 0.0316162 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 11 2 8
+Normal: -0.992438 -0.122744 0
+Tangent: 0.102855 -0.831625 0.54573
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 8 9 12
+Normal: 0 1 8.16463e-007
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 12 9 13
+Normal: 0 1 4.08232e-007
+Tangent: 0.33922 -3.84026e-007 0.940707
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 9 10 13
+Normal: 0 1 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 13 10 14
+Normal: 0 1 0
+Tangent: 0.940707 0 -0.33922
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 10 11 14
+Normal: 0 1 -8.16463e-007
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 14 11 15
+Normal: 0 1 -4.08232e-007
+Tangent: -0.33922 -3.84026e-007 -0.940707
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 11 8 15
+Normal: 0 1 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 15 8 12
+Normal: 0 1 0
+Tangent: -0.940707 0 0.33922
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 12 13 16
+Normal: 0 -0.222676 0.974892
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 16 13 17
+Normal: 0 -0.222676 0.974892
+Tangent: 0.58695 -0.789296 -0.180284
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 13 14 17
+Normal: 0.974892 -0.222676 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 17 14 18
+Normal: 0.974892 -0.222676 0
+Tangent: -0.180284 -0.789296 -0.58695
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 14 15 18
+Normal: 0 -0.222676 -0.974892
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 18 15 19
+Normal: 0 -0.222676 -0.974892
+Tangent: -0.58695 -0.789296 0.180284
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 15 12 19
+Normal: -0.974892 -0.222676 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 19 12 16
+Normal: -0.974892 -0.222676 0
+Tangent: 0.180284 -0.789296 0.58695
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 16 17 20
+Normal: 0 1 -2.6504e-006
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 20 17 21
+Normal: 0 1 -1.3252e-006
+Tangent: 0.336637 1.24785e-006 0.941635
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 17 18 21
+Normal: 0 1 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 21 18 22
+Normal: 0 1 0
+Tangent: 0.941635 0 -0.336637
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 18 19 22
+Normal: 0 1 2.6504e-006
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 22 19 23
+Normal: 0 1 1.3252e-006
+Tangent: -0.336637 1.24785e-006 -0.941635
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 19 16 23
+Normal: 0 1 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 23 16 20
+Normal: 0 1 0
+Tangent: -0.941635 0 0.336637
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 20 21 24
+Normal: 0 -0.206451 0.978457
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 24 21 25
+Normal: 0 -0.206451 0.978457
+Tangent: 0.589869 -0.790103 -0.166709
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 21 22 25
+Normal: 0.978457 -0.206451 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 25 22 26
+Normal: 0.978457 -0.206451 0
+Tangent: -0.166709 -0.790103 -0.589869
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 22 23 26
+Normal: 0 -0.206451 -0.978457
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 26 23 27
+Normal: 0 -0.206451 -0.978457
+Tangent: -0.589869 -0.790103 0.166709
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 23 20 27
+Normal: -0.978457 -0.206451 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 27 20 24
+Normal: -0.978457 -0.206451 0
+Tangent: 0.166709 -0.790103 0.589869
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 24 25 28
+Normal: 0 1 -3.46154e-007
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 28 25 29
+Normal: 0 1 -1.73077e-007
+Tangent: 0.256467 1.67288e-007 0.966553
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 25 26 29
+Normal: 0 1 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 29 26 30
+Normal: 0 1 0
+Tangent: 0.966553 0 -0.256467
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 26 27 30
+Normal: 0 1 3.46154e-007
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 30 27 31
+Normal: 0 1 1.73077e-007
+Tangent: -0.256467 1.67288e-007 -0.966553
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 27 24 31
+Normal: 0 1 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 31 24 28
+Normal: 0 1 0
+Tangent: -0.966553 0 0.256467
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 28 29 32
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 32 29 33
+Normal: 0 0 1
+Tangent: 0.601592 -0.798804 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 29 30 33
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 33 30 34
+Normal: 1 0 0
+Tangent: 0 -0.798804 -0.601592
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 30 31 34
+Normal: 0 0 -1
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 34 31 35
+Normal: 0 0 -1
+Tangent: -0.601592 -0.798804 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 31 28 35
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 35 28 32
+Normal: -1 0 0
+Tangent: 0 -0.798804 0.601592
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 32 33 36
+Normal: 0 1 3.62342e-006
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 36 33 37
+Normal: 0 1 1.81171e-006
+Tangent: 0.295972 -1.73054e-006 0.955197
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 33 34 37
+Normal: 0 1 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 37 34 38
+Normal: 0 1 0
+Tangent: 0.955197 0 -0.295972
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 34 35 38
+Normal: 0 1 -3.62342e-006
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 38 35 39
+Normal: 0 1 -1.81171e-006
+Tangent: -0.295972 -1.73054e-006 -0.955197
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 35 32 39
+Normal: 0 1 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 39 32 36
+Normal: 0 1 0
+Tangent: -0.955197 0 0.295972
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 36 37 40
+Normal: 0 -0.168652 0.985676
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 40 37 41
+Normal: 0 0.01049 0.999945
+Tangent: 0.772612 -0.634844 0.00665988
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 37 38 41
+Normal: 0.985675 -0.168653 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 41 38 42
+Normal: 0.999945 0.01049 0
+Tangent: 0.00665988 -0.634844 -0.772612
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 38 39 42
+Normal: 0 -0.168652 -0.985676
+Tangent: -1 0 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 42 39 43
+Normal: 0 0.01049 -0.999945
+Tangent: -0.772612 -0.634844 -0.00665988
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 39 36 43
+Normal: -0.985675 -0.168653 0
+Tangent: 0 0 1
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 43 36 40
+Normal: -0.999945 0.01049 0
+Tangent: -0.00665988 -0.634844 0.772612
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 45 44 41
+Normal: 0 0.124534 0.992215
+Tangent: -0.478907 0.871032 -0.109324
+UV1: 0.625 0.25 
+UV2: 0.375 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 40 41 44
+Normal: 0 0.01049 0.999945
+Tangent: 0.772612 -0.634844 0.00665988
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 46 45 42
+Normal: 0.992215 0.124535 0
+Tangent: -0.109325 0.871032 0.478907
+UV1: 0.625 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 41 42 45
+Normal: 0.999945 0.01049 0
+Tangent: 0.00665988 -0.634844 -0.772612
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 47 46 43
+Normal: 0 0.124534 -0.992215
+Tangent: 0.478907 0.871032 0.109324
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 42 43 46
+Normal: 0 0.01049 -0.999945
+Tangent: -0.772612 -0.634844 -0.00665988
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 44 47 40
+Normal: -0.992215 0.124535 0
+Tangent: 0.109325 0.871032 -0.478907
+UV1: 0.375 0.25 
+UV2: 0.375 0.5 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 43 40 47
+Normal: -0.999945 0.01049 0
+Tangent: -0.00665988 -0.634844 0.772612
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 44 45 48
+Normal: 0 0.249069 0.968486
+Tangent: 0.499198 -0.839181 0.215815
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 48 45 49
+Normal: 0 0 1
+Tangent: 0.0441555 -0.999025 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 45 46 49
+Normal: 0.968485 0.24907 0
+Tangent: 0.215816 -0.839181 -0.499199
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.25
+MaterialIndex: 1
+
+VertexIndicies: 49 46 50
+Normal: 1 0 0
+Tangent: 0 -0.999025 -0.0441555
+UV1: 0.625 0.25 
+UV2: 0.625 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 46 47 50
+Normal: 0 0.249069 -0.968486
+Tangent: -0.499198 -0.839181 -0.215815
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.625 0.5
+MaterialIndex: 1
+
+VertexIndicies: 50 47 51
+Normal: 0 0 -1
+Tangent: -0.0441555 -0.999025 0
+UV1: 0.625 0.5 
+UV2: 0.375 0.5 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 47 44 51
+Normal: -0.968485 0.24907 0
+Tangent: -0.215816 -0.839181 0.499199
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.5
+MaterialIndex: 1
+
+VertexIndicies: 51 44 48
+Normal: -1 0 0
+Tangent: 0 -0.999025 0.0441555
+UV1: 0.375 0.5 
+UV2: 0.375 0.25 
+UV3: 0.375 0.25
+MaterialIndex: 1
+
+VertexIndicies: 52 53 54
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0 
+UV2: 0.625 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 54 53 55
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 54 55 56
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.5
+MaterialIndex: -1
+
+VertexIndicies: 56 55 57
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: -1
+
+VertexIndicies: 56 57 58
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.75
+MaterialIndex: -1
+
+VertexIndicies: 58 57 59
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.5 
+UV3: 0.625 0.75
+MaterialIndex: -1
+
+VertexIndicies: 58 59 52
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.75 
+UV3: 0.375 1
+MaterialIndex: -1
+
+VertexIndicies: 52 59 53
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 1 
+UV2: 0.625 0.75 
+UV3: 0.625 1
+MaterialIndex: -1
+
+VertexIndicies: 53 59 55
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0 
+UV2: 0.875 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 55 59 57
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.875 0 
+UV3: 0.875 0.25
+MaterialIndex: -1
+
+VertexIndicies: 58 52 56
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0 
+UV2: 0.375 0 
+UV3: 0.125 0.25
+MaterialIndex: -1
+
+VertexIndicies: 56 52 54
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0.25 
+UV2: 0.375 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 60 61 62
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0 
+UV2: 0.625 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 62 61 63
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 62 63 64
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.5
+MaterialIndex: -1
+
+VertexIndicies: 64 63 65
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: -1
+
+VertexIndicies: 64 65 66
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.75
+MaterialIndex: -1
+
+VertexIndicies: 66 65 67
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.5 
+UV3: 0.625 0.75
+MaterialIndex: -1
+
+VertexIndicies: 66 67 60
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.75 
+UV3: 0.375 1
+MaterialIndex: -1
+
+VertexIndicies: 60 67 61
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 1 
+UV2: 0.625 0.75 
+UV3: 0.625 1
+MaterialIndex: -1
+
+VertexIndicies: 61 67 63
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0 
+UV2: 0.875 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 63 67 65
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.875 0 
+UV3: 0.875 0.25
+MaterialIndex: -1
+
+VertexIndicies: 66 60 64
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0 
+UV2: 0.375 0 
+UV3: 0.125 0.25
+MaterialIndex: -1
+
+VertexIndicies: 64 60 62
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0.25 
+UV2: 0.375 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 68 69 70
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0 
+UV2: 0.625 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 70 69 71
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 70 71 72
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.5
+MaterialIndex: -1
+
+VertexIndicies: 72 71 73
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: -1
+
+VertexIndicies: 72 73 74
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.75
+MaterialIndex: -1
+
+VertexIndicies: 74 73 75
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.5 
+UV3: 0.625 0.75
+MaterialIndex: -1
+
+VertexIndicies: 74 75 68
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.75 
+UV3: 0.375 1
+MaterialIndex: -1
+
+VertexIndicies: 68 75 69
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 1 
+UV2: 0.625 0.75 
+UV3: 0.625 1
+MaterialIndex: -1
+
+VertexIndicies: 69 75 71
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0 
+UV2: 0.875 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 71 75 73
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.875 0 
+UV3: 0.875 0.25
+MaterialIndex: -1
+
+VertexIndicies: 74 68 72
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0 
+UV2: 0.375 0 
+UV3: 0.125 0.25
+MaterialIndex: -1
+
+VertexIndicies: 72 68 70
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0.25 
+UV2: 0.375 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 76 77 78
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0 
+UV2: 0.625 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 78 77 79
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 78 79 80
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.5
+MaterialIndex: -1
+
+VertexIndicies: 80 79 81
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: -1
+
+VertexIndicies: 80 81 82
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.75
+MaterialIndex: -1
+
+VertexIndicies: 82 81 83
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.5 
+UV3: 0.625 0.75
+MaterialIndex: -1
+
+VertexIndicies: 82 83 76
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.75 
+UV3: 0.375 1
+MaterialIndex: -1
+
+VertexIndicies: 76 83 77
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 1 
+UV2: 0.625 0.75 
+UV3: 0.625 1
+MaterialIndex: -1
+
+VertexIndicies: 77 83 79
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0 
+UV2: 0.875 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 79 83 81
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.875 0 
+UV3: 0.875 0.25
+MaterialIndex: -1
+
+VertexIndicies: 82 76 80
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0 
+UV2: 0.375 0 
+UV3: 0.125 0.25
+MaterialIndex: -1
+
+VertexIndicies: 80 76 78
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0.25 
+UV2: 0.375 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 84 85 86
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0 
+UV2: 0.625 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+VertexIndicies: 86 85 87
+Normal: 0 0 1
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 86 87 88
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.25 
+UV2: 0.625 0.25 
+UV3: 0.375 0.5
+MaterialIndex: -1
+
+VertexIndicies: 88 87 89
+Normal: 0 1 0
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.25 
+UV3: 0.625 0.5
+MaterialIndex: -1
+
+VertexIndicies: 88 89 90
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.5 
+UV2: 0.625 0.5 
+UV3: 0.375 0.75
+MaterialIndex: -1
+
+VertexIndicies: 90 89 91
+Normal: 0 0 -1
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.5 
+UV3: 0.625 0.75
+MaterialIndex: -1
+
+VertexIndicies: 90 91 84
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 0.75 
+UV2: 0.625 0.75 
+UV3: 0.375 1
+MaterialIndex: -1
+
+VertexIndicies: 84 91 85
+Normal: 0 -1 0
+Tangent: 1 0 0
+UV1: 0.375 1 
+UV2: 0.625 0.75 
+UV3: 0.625 1
+MaterialIndex: -1
+
+VertexIndicies: 85 91 87
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0 
+UV2: 0.875 0 
+UV3: 0.625 0.25
+MaterialIndex: -1
+
+VertexIndicies: 87 91 89
+Normal: 1 0 0
+Tangent: 0 0 -1
+UV1: 0.625 0.25 
+UV2: 0.875 0 
+UV3: 0.875 0.25
+MaterialIndex: -1
+
+VertexIndicies: 90 84 88
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0 
+UV2: 0.375 0 
+UV3: 0.125 0.25
+MaterialIndex: -1
+
+VertexIndicies: 88 84 86
+Normal: -1 0 0
+Tangent: 0 0 1
+UV1: 0.125 0.25 
+UV2: 0.375 0 
+UV3: 0.375 0.25
+MaterialIndex: -1
+
+

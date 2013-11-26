@@ -1,0 +1,13 @@
+Tiles: 20 20
+TileSize: 66 66
+
+Models:
+ModelID: 3 GeometryFile: ../../ModelFiles/Buildings/CornerStore/CornerStoreGeometry.txt
+ModelID: 4 GeometryFile: ../../ModelFiles/Buildings/L-Building01/L-Building01Geometry.txt
+ModelID: 5 GeometryFile: ../../ModelFiles/Buildings/TallGlassBuilding/TallGlassBuildingGeometry.txt
+
+
+Map:
+ID: 4 ActorID: -1 Position: 5 5 Scale: 3.0 3.0 3.0 Rotation: 0.0 0.0 0.0
+ID: 5 ActorID: -1 Position: 5 6 Scale: 3.0 3.0 3.0 Rotation: 0.0 1.57 0.0
+ID: 3 ActorID: -1 Position: 5 7 Scale: 3.0 3.0 3.0 Rotation: 0.0 3.14 0.0

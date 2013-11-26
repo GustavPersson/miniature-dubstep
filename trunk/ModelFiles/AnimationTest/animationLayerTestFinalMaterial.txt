@@ -1,0 +1,9 @@
+NumberOfMaterials: 1
+LambertMaterial
+MaterialID: 0
+Ambient: 0 0 0 0
+Diffuse: 0.5 0.5 0.5 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+

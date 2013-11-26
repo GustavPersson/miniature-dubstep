@@ -1,0 +1,27 @@
+NumberOfMaterials: 3
+LambertMaterial
+MaterialID: 0
+Ambient: 0 0 0 0
+Diffuse: 0.5 0.5 0.5 1
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 1
+Ambient: 0 0 0 0
+Diffuse: 0.5 0.461735 0.191 1
+Specular: 0.5 0.5 0.5 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 2
+Ambient: 0 0 0 0
+Diffuse: 0.688912 0.7 0.476 1
+Specular: 0.5 0.5 0.5 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+

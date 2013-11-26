@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Hello>Opening a new salutation
+    <Greeting>How are you?
+        <Language>English</Language>
+    </Greeting>
+    <Exclamation>You have children!</Exclamation>
+</Hello>

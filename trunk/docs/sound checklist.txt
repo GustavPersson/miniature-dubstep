@@ -1,0 +1,118 @@
+Sound Checklist
+
+Legend: 
+X = Sound found and uploaded
+V = New sound pending, not uploaded
+? = Not sure if needed in-game
+<--- = Sound uploaded but may need to be switched
+I = Sound found, uploaded and implemented
+
+
+//Menu Sound
+	Sound_MenuButtonRollover,  			X
+	Sound_MenuButtonPressedDefault, 		X
+	Sound_MenuError,				X
+	Sound_MenuConnect,					?
+
+//Player Sounds
+	Sound_PlayerTankLongRangeMovementStop,		X	I
+	Sound_PlayerTankCloseCombatMovementStop,	X	I
+	Sound_PlayerTankDeath,				X	I
+	Sound_PlayerTankEject,
+	Sound_PlayerTankCollisionHouse1,		X	I
+	Sound_PlayerTankCollisionHouse2,		X	I
+	Sound_PlayerTankCollisionLargeEnemy,		X	I  <---
+	Sound_PlayerTankCollisionTank,			X	I
+	Sound_PlayerTankHitMelee,			X	  <---
+	Sound_PlayerTankHitRangedFire, 			X
+	Sound_PlayerTankHitRangedAcid, 			X
+	Sound_PlayerTankHitRangedPlasma,			?
+	Sound_PlayerFootDeath,				X	I
+	Sound_PlayerFootEnterTank,
+	Sound_PlayerFootHit,				X	I
+
+//Enemy Sounds
+	Sound_EnemyAntDeath,				X	I
+	Sound_EnemyAntSpawn,				X	I
+	Sound_EnemyAntAttackRanged,			X 	I <---
+	Sound_EnemyAntAttackRangedImpact, 		X
+	Sound_EnemyAntAttackMelee,			X
+	Sound_EnemyAntAttackExplosion, 			X	  <---
+	Sound_EnemyAntHit,					I?
+
+	Sound_EnemySpiderDeath,				X	I
+	Sound_EnemySpiderSpawn,				X	I
+	Sound_EnemySpiderAttackRanged,			X	I  <---
+	Sound_EnemtSpiderAttackRangedImpact, 		X
+	Sound_EnemySpiderAttackMelee,			X
+	Sound_EnemySpiderJumpAttack,			X
+	Sound_EnemySpiderHit,					I?
+
+	Sound_EnemyBeetleDeath,				X	I
+	Sound_EnemyBeetleSpawn,				X	I  <---
+	Sound_EnemyBeetleAttackRanged,			X	I  <---
+	Sound_EnemyBeetleAttackRangedImpact,		X	  <---
+	Sound_EnemyBeetleAttackMelee,			X
+	Sound_EnemyBeetleHit,					I?
+
+//Civilian Sounds
+	Sound_CivilianDeath,				X	I
+	Sound_CivilianStunned,				X
+	Sound_CivilianScreamFleeing,			X	  <---
+	Sound_CivilianScreamHijack,
+	Sound_CivilianEnterTank,
+	Sound_CivilianHit,				X
+
+//Weapon Sounds
+	Sound_WeaponMinigunFire,			X	I
+	Sound_WeaponMinigunImpact,			X	I
+	Sound_WeaponMinigunStart,			X	?  <---
+	Sound_WeaponMinigunEnd,				X	I
+
+	Sound_WeaponFlamethrowerFire,			X	I  <---
+	Sound_WeaponFlamethrowerImpact,				I?
+	Sound_WeaponFlamethrowerStart,			X	?
+	Sound_WeaponFlamethrowerEnd,			X	I
+
+	Sound_WeaponPulsecannonFire,			X	I
+	Sound_WeaponPulsecannonImpact,				I?
+	Sound_WeaponPulsecannonStart,				?  
+	Sound_WeaponPulsecannonEnd,				?
+
+	Sound_WeaponCannonFire,				X	I
+	Sound_WeaponCannonImpact,			X	I  <---
+
+	Sound_WeaponGausscannonFire,			X	I <---
+	Sound_WeaponGausscannonImpact,				I
+	Sound_WeaponGausscannonStart,
+
+	Sound_WeaponBeamcannonFire,			X	I
+	Sound_WeaponBeamcannonImpact,				I
+
+	Sound_WeaponShotgunFire,			X	I
+	Sound_WeaponShotgunImpact,			X	I  <---
+
+	Sound_WeaponPedestrianGunFire,			X	I
+	Sound_WeaponPedestrianGunImpact,			I?
+
+//Other Sounds
+	Sound_OtherExplosionDefault, 
+
+
+//Loop sounds
+	Sound_PlayerTankLongRangeMovementMoving,	X	I
+	Sound_PlayerTankCloseCombatMovementMoving,	X	I  <---
+	Sound_PlayerTankLongRangeMovementRotation,	X	I  <---
+	Sound_PlayerTankCloseCombatMovementRotation,	X	I  <---
+	Sound_PedestrianMovement, 			X	I
+	Sound_EnemyAntMovement,				X	I  <---
+	Sound_EnemySpiderMovement, 			X	I  <---
+	Sound_EnemyBeetleMovement,			X	I  <---
+	Sound_PlayerTankTurretRotation,			X	I
+
+//Music (Streams)
+	Music_Gameplay,					V
+	Music_Defeat,
+	Music_Victory,
+	Music_Menu,					V
+	Music_Space,					X

@@ -1,0 +1,1 @@
+The exporter must be run from the Maya/bin-folder.

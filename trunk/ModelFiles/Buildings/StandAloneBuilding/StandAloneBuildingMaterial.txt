@@ -1,0 +1,55 @@
+NumberOfMaterials: 6
+PhongMaterial
+MaterialID: 0
+Ambient: 0 0 0 0
+Diffuse: 0.5 0.5 0.5 1
+Specular: 0 0 0 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 1
+Ambient: 0 0 0 0
+Diffuse: 0.362859 0.777 0.632879 1
+Specular: 0.31404 0.31404 0.31404 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 2
+Ambient: 0 0 0 0
+Diffuse: 0.8 0.8 0.8 1
+Specular: 0 0 0 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 3
+Ambient: 0 0 0 0
+Diffuse: 0.362859 0.777 0.632879 1
+Specular: 0.31404 0.31404 0.31404 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 4
+Ambient: 0 0 0 0
+Diffuse: 0.362859 0.777 0.632879 1
+Specular: 0.31404 0.31404 0.31404 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 5
+Ambient: 0 0 0 0
+Diffuse: 0.362859 0.777 0.632879 1
+Specular: 0.31404 0.31404 0.31404 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+

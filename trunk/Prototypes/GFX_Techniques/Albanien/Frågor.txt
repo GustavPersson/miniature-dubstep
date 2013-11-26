@@ -1,0 +1,5 @@
+Skapandet av vertexpunkter (rad 40~)
+
+Binda Vertex buffer, index buffer genom d3d10_buffer_desc istället för genom Mesh
+
+32 lr 16 bitars mesher

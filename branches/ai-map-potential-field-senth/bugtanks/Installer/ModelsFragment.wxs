@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <DirectoryRef Id="INSTALLDIR">
+      <Directory Id="MODELSDIR" Name="ModelFiles" />
+    </DirectoryRef>
+
+    <ComponentGroup Id="ModelsGroup">
+
+      <Component Id="antmodel" Directory="ANTMODELDIR" Guid="{88997FC4-7DF5-4465-9964-40A7C5CDDA3A}">
+        <File Id="antmb" Name="NewAnt.mb" Source="../../ModelFiles/Ant/NewAnt.mb" KeyPath="yes" />
+        <File Id="antgeo" Name="newantGeometry.btb" Source="../../ModelFiles/Ant/newantGeometry.btb" />
+        <File Id="antmat" Name="newantMaterial.btb" Source="../../ModelFiles/Ant/newantMaterial.btb" />
+        <File Id="antani" Name="NewAnt_IdleAnimation.btb" Source="../../ModelFiles/Ant/NewAnt_IdleAnimation.btb" />
+        <File Id="antweights" Name="newantWeights.btb" Source="../../ModelFiles/Ant/newantWeights.btb" />
+        <File Id="antmelee" Name="NewAnt_MeleeAnimation.btb" Source="../../ModelFiles/Ant/NewAnt_MeleeAnimation.btb" />
+      </Component>
+
+      <Component Id="beetlemodel" Directory="BEETLEMODELDIR" Guid="{D17E2B45-7164-437f-8C54-3C98EAA5A69E}">
+        <File Id="beetlemb" Name="Beetle.mb" Source="../../ModelFiles/Beetle/Beetle.mb" KeyPath="yes" />
+        <File Id="beetlegeo" Name="BeetleGeometry.btb" Source="../../ModelFiles/Beetle/BeetleGeometry.btb"  />
+        <File Id="beetlemat" Name="BeetleMaterial.btb" Source="../../ModelFiles/Beetle/BeetleMaterial.btb" />
+      </Component>
+      
+      <Component Id="bugmanmodel" Directory="BUGMANDIR" Guid="{0804B67F-8700-42d1-A590-B7EB46A24BA4}">
+        <File Id="bugmanmb" Name="Bugman.mb" Source="../../ModelFiles/Bugman/Bugman.mb" KeyPath="yes" />
+        <File Id="bugmangeo" Name="bugmanGeometry.btb" Source="../../ModelFiles/Bugman/bugmanGeometry.btb" />
+        <File Id="bugmanmat" Name="bugmanMaterial.btb" Source="../../ModelFiles/Bugman/bugmanMaterial.btb" />
+        <File Id="bugmanwalk" Name="Bugman_WalkAnimation.btb" Source="../../ModelFiles/Bugman/Bugman_WalkAnimation.btb" />
+        <File Id="bugmanweights" Name="bugmanWeights.btb" Source="../../ModelFiles/Bugman/bugmanWeights.btb" />
+      </Component>
+
+      <Component Id="airtankmodel" Directory="AIRTANKDIR" Guid="{3A4B5251-23D5-44b5-88A5-3B1BFA0C0418}">
+        <File Id="tankairmb" Name="NewTankAir.mb" Source="../../ModelFiles/TankAir/NewTankAir.mb" KeyPath="yes" />
+        <File Id="tankairgeo" Name="NewTankAirGeometry.btb" Source="../../ModelFiles/TankAir/NewTankAirGeometry.btb" />
+        <File Id="tankairmat" Name="NewTankAirMaterial.btb" Source="../../ModelFiles/TankAir/NewTankAirMaterial.btb" />
+        <File Id="tankairtex" Name="textureTankAir.png" Source="../../ModelFiles/TankAir/textureTankAir.png" />
+      </Component>
+
+      <Component Id="groundtankmodel" Directory="GROUNDTANKDIR" Guid="{308647DA-90F9-46e6-82EA-28D8C11060AB}">
+        <File Id="tankgroundmb" Name="NewTankGround.mb" Source="../../ModelFiles/TankGround/NewTankGround.mb" KeyPath="yes" />
+        <File Id="tankgroundgeo" Name="NewTankGroundGeometry.btb" Source="../../ModelFiles/TankGround/NewTankGroundGeometry.btb" />
+        <File Id="tankgroundmat" Name="NewTankGroundMaterial.btb" Source="../../ModelFiles/TankGround/NewTankGroundMaterial.btb" />
+        <File Id="tankgroundtex" Name="textureTank.png" Source="../../ModelFiles/TankGround/textureTank.png" />
+      </Component>
+
+      <Component Id="tankshell" Directory="TANKSHELLDIR" Guid="{666E7810-374F-49c7-BE71-850320B3AB04}">
+        <File Id="tankshellmb" Name="NewTankShell.mb" Source="../../ModelFiles/TankShell/NewTankShell.mb" KeyPath="yes" />
+        <File Id="tankshellgeo" Name="NewTankShellGeometry.btb" Source="../../ModelFiles/TankShell/NewTankShellGeometry.btb" />
+        <File Id="tankshellmat" Name="NewTankShellMaterial.btb" Source="../../ModelFiles/TankShell/NewTankShellMaterial.btb" />
+      </Component>
+
+      <!--Buildings-->
+
+      <Component Id="citymall" Directory="citymall" Guid="{7B046A27-CDA8-4dc6-A00D-1D4CE625490D}">
+        <File Id="citymallmb" Name="CityMall.mb" Source="../../ModelFiles/Buildings/CityMall/CityMall.mb" KeyPath="yes" />
+        <File Id="citymallgeo" Name="CityMallGeometry.btb" Source="../../ModelFiles/Buildings/CityMall/CityMallGeometry.btb" />
+        <File Id="citymallmat" Name="CityMallMaterial.btb" Source="../../ModelFiles/Buildings/CityMall/CityMallMaterial.btb" />
+      </Component>
+
+      <Component Id="cornerstore" Directory="CORNERSTORE" Guid="{66CDE223-D703-4c75-9323-9ABE0E2C89CF}">
+        <File Id="cornerstoremb" Name="CornerStore.mb" Source="../../ModelFiles/Buildings/CornerStore/CornerStore.mb" KeyPath="yes" />
+        <File Id="cornerstoregeo" Name="CornerStoreGeometry.btb" Source="../../ModelFiles/Buildings/CornerStore/CornerStoreGeometry.btb" />
+        <File Id="cornerstoremat" Name="CornerStoreMaterial.btb" Source="../../ModelFiles/Buildings/CornerStore/CornerStoreMaterial.btb" />
+      </Component>
+
+      <Component Id="greenoffice" Directory="GREENOFFICE" Guid="{12E19434-D85B-47d6-ACB6-5BC4CEEF4380}">
+        <File Id="greenofficemb" Name="GreenOffice.mb" Source="../../ModelFiles/Buildings/GreenOffice/GreenOffice.mb" KeyPath="yes" />
+        <File Id="greenofficegeo" Name="GreenOfficeGeometry.btb" Source="../../ModelFiles/Buildings/GreenOffice/GreenOfficeGeometry.btb" />
+        <File Id="greenofficemat" Name="GreenOfficeMaterial.btb" Source="../../ModelFiles/Buildings/GreenOffice/GreenOfficeMaterial.btb" />
+      </Component>
+
+      <Component Id="lbuilding" Directory="LBUILDING01" Guid="{128DD0A8-A7ED-4ec0-B600-800CFB6555FF}">
+        <File Id="lbuildingmb" Name="L-Building01.mb" Source="../../ModelFiles/Buildings/L-Building01/L-Building01.mb" KeyPath="yes" />
+        <File Id="lbuildinggeo" Name="L-Building01Geometry.btb" Source="../../ModelFiles/Buildings/L-Building01/L-Building01Geometry.btb" />
+        <File Id="lbuildingmat" Name="L-Building01Material.btb" Source="../../ModelFiles/Buildings/L-Building01/L-Building01Material.btb" />
+      </Component>
+
+      <Component Id="skyscraper" Directory="SKYSCRAPER01" Guid="{263C0329-1637-4973-9BE3-809506142608}">
+        <File Id="skyscrapermb" Name="Skyscraper01.mb" Source="../../ModelFiles/Buildings/Skyscraper01/Skyscraper01.mb" KeyPath="yes" />
+        <File Id="skyscrapergeo" Name="Skyscraper01Geometry.btb" Source="../../ModelFiles/Buildings/Skyscraper01/Skyscraper01Geometry.btb" />
+        <File Id="skyscrapermat" Name="Skyscraper01Material.btb" Source="../../ModelFiles/Buildings/Skyscraper01/Skyscraper01Material.btb" />
+      </Component>
+
+      <Component Id="standalone" Directory="STANDALONEBUILDING" Guid="{766EE1A2-0118-4167-8131-50335FC1CB08}">
+        <File Id="standalonemb" Name="StandAloneBuilding.mb" Source="../../ModelFiles/Buildings/StandAloneBuilding/StandAloneBuilding.mb" KeyPath="yes" />
+        <File Id="standalonegeo" Name="StandAloneBuildingGeometry.btb" Source="../../ModelFiles/Buildings/StandAloneBuilding/StandAloneBuildingGeometry.btb" />
+        <File Id="standalonemat" Name="StandAloneBuildingMaterial.btb" Source="../../ModelFiles/Buildings/StandAloneBuilding/StandAloneBuildingMaterial.btb" />
+      </Component>
+
+      <Component Id="wtfbuilding" Directory="WTFBUILDING" Guid="{38FDFEEE-6CE3-45eb-8466-09DDEF8FD02B}">
+        <File Id="wtfbuildingmb" Name="WTFBuilding.mb" Source="../../ModelFiles/Buildings/WTFBuilding/WTFBuilding.mb" KeyPath="yes" />
+        <File Id="wtfbuildinggeo" Name="WTFBuildingGeometry.btb" Source="../../ModelFiles/Buildings/WTFBuilding/WTFBuildingGeometry.btb" />
+        <File Id="wtfbuildingmat" Name="WTFBuildingMaterial.btb" Source="../../ModelFiles/Buildings/WTFBuilding/WTFBuildingMaterial.btb" />
+      </Component>
+
+      <Component Id="taipei" Directory="TAIPEI" Guid="{103FC215-A9CA-4994-86C9-EDD8B0D37E55}">
+        <File Id="taipeimb" Name="Taipei.mb" Source="../../ModelFiles/Buildings/Taipei/Taipei.mb" KeyPath="yes" />
+        <File Id="taipeigeo" Name="TaipeiGeometry.btb" Source="../../ModelFiles/Buildings/Taipei/TaipeiGeometry.btb" />
+        <File Id="taipeimat" Name="TaipeiMaterial.btb" Source="../../ModelFiles/Buildings/Taipei/TaipeiMaterial.btb" />
+      </Component>
+
+      <Component Id="tallglass" Directory="TALLGLASSBUILDING" Guid="{78118BF9-E1BB-48b3-BAD7-6DF511398631}">
+        <File Id="tallglassmb" Name="TallGlassBuilding.mb" Source="../../ModelFiles/Buildings/TallGlassBuilding/TallGlassBuilding.mb" KeyPath="yes" />
+        <File Id="tallglassgeo" Name="TallGlassBuildingGeometry.btb" Source="../../ModelFiles/Buildings/TallGlassBuilding/TallGlassBuildingGeometry.btb" />
+        <File Id="tallglassmat" Name="TallGlassBuildingMaterial.btb" Source="../../ModelFiles/Buildings/TallGlassBuilding/TallGlassBuildingMaterial.btb" />
+      </Component>
+
+      <Component Id="turningtorso" Directory="TURNINGTORSO" Guid="{60247392-0A9B-46a9-824B-BC38935A64EF}">
+        <File Id="turningtorsomb" Name="Turningtorso.mb" Source="../../ModelFiles/Buildings/Turningtorso/Turningtorso.mb" KeyPath="yes" />
+        <File Id="turningtorsogeo" Name="TurningtorsoGeometry.btb" Source="../../ModelFiles/Buildings/Turningtorso/TurningtorsoGeometry.btb" />
+        <File Id="turningtorsomat" Name="TurningtorsoMaterial.btb" Source="../../ModelFiles/Buildings/Turningtorso/TurningtorsoMaterial.btb" />
+      </Component>
+
+      <Component Id="window" Directory="WINDOWBUILDING" Guid="{DF5480AE-A4C4-4f4a-A316-A9C30D249DD8}">
+        <File Id="windowmb" Name="WindowBuilding.mb" Source="../../ModelFiles/Buildings/WindowBuilding/WindowBuilding.mb" KeyPath="yes" />
+        <File Id="windowgeo" Name="WindowBuildingGeometry.btb" Source="../../ModelFiles/Buildings/WindowBuilding/WindowBuildingGeometry.btb" />
+        <File Id="windowmat" Name="WindowBuildingMaterial.btb" Source="../../ModelFiles/Buildings/WindowBuilding/WindowBuildingMaterial.btb" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="MODELSDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="ANTMODELDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="BEETLEMODELDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="BUGMANDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="AIRTANKDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="GROUNDTANKDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TANKSHELLDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="BUILDINGMODELSDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="citymall" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="CORNERSTORE" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="GREENOFFICE" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="SKYSCRAPER01" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="STANDALONEBUILDING" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="WTFBUILDING" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="TAIPEI" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="TALLGLASSBUILDING" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TURNINGTORSO" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="WINDOWBUILDING" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="LBUILDING01" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="MODELSDIR">
+      <Directory Id="ANTMODELDIR" Name="Ant"/>
+      <Directory Id="BEETLEMODELDIR" Name="Beetle" />
+      <Directory Id="BUGMANDIR" Name="Bugman"/>
+      <Directory Id="AIRTANKDIR" Name="TankAir"/>
+      <Directory Id="GROUNDTANKDIR" Name="TankGround"/>
+      <Directory Id="TANKSHELLDIR" Name="TankShell"/>
+      <Directory Id="BUILDINGMODELSDIR" Name="Buildings"/>
+    </DirectoryRef>
+    <DirectoryRef Id="BUILDINGMODELSDIR">
+      <Directory Id="citymall" Name="CityMall"/>
+      <Directory Id="CORNERSTORE" Name="CornerStore"/>
+      <Directory Id="GREENOFFICE" Name="GreenOffice"/>
+      <Directory Id="SKYSCRAPER01" Name="Skyscraper01"/>
+      <Directory Id="STANDALONEBUILDING" Name="StandAloneBuilding"/>
+      <Directory Id="WTFBUILDING" Name="WTFBuilding"/>
+      <Directory Id="TAIPEI" Name="Taipei"/>
+      <Directory Id="TALLGLASSBUILDING" Name="TallGlassBuilding"/>
+      <Directory Id="TURNINGTORSO" Name="Turningtorso"/>
+      <Directory Id="WINDOWBUILDING" Name="WindowBuilding"/>
+      <Directory Id="LBUILDING01" Name="L-Building01"/>
+    </DirectoryRef>
+  </Fragment>
+
+
+</Wix>
