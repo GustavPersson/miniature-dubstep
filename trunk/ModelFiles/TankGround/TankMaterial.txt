@@ -1,0 +1,18 @@
+NumberOfMaterials: 2
+LambertMaterial
+MaterialID: 0
+Ambient: 0 0 0 0
+Diffuse: 0.5 0.5 0.5 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: None
+
+PhongMaterial
+MaterialID: 1
+Ambient: 0 0 0 0
+Diffuse: 0 0 0 0
+Specular: 0.5 0.5 0.5 0
+Incandescence: 0 0 0 0
+Transparency: 0 0 0 0
+Texture: C:/Users/BTH/Documents/MayaModels/TankGround/textureTank.png
+

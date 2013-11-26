@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <DirectoryRef Id="INSTALLDIR">
+      <Directory Id="TEXTURESDIR" Name="Textures" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="TexturesGroup">
+      <Component Id="cmp317D0DBAAA674DE1ECF9486AFDFF30F6" Directory="TEXTURESDIR" Guid="{CF3C5F89-3835-428A-AB4D-07FB70E186D3}">
+        <File Id="filA50EAC3DC5363282C651019B19DB79DA" KeyPath="yes" Source="..\..\Textures\Button_default.png" />
+      </Component>
+      <Component Id="cmpD6990CE91EFD884DBBE954CC4939D120" Directory="TEXTURESDIR" Guid="{ABC54336-A1CD-43CC-A5B7-5FAECB0992BE}">
+        <File Id="fil42B478C75C50B6A189E4498A6335EAC0" KeyPath="yes" Source="..\..\Textures\Button_mouse_over.png" />
+      </Component>
+      <Component Id="cmp72ED8BC140EE1BDB3DCA0449DB133A80" Directory="TEXTURESDIR" Guid="{8D1A2E41-28BE-459A-B119-2AF9BAA444E9}">
+        <File Id="filD51929C78244869F6D775583732F0AAB" KeyPath="yes" Source="..\..\Textures\Button_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmpF8B69EB796E5CE00DA026C9E892976CA" Directory="TEXTURESDIR" Guid="{7B6A1039-FCB8-446D-96B5-C59A3AA0C7EC}">
+        <File Id="fil1A8C50AD3E95DACA973DF70EE9BAFC40" KeyPath="yes" Source="..\..\Textures\Button_pressed.png" />
+      </Component>
+      <Component Id="cmpAEE85A357A9BA31C287B184886B3FDA8" Directory="TEXTURESDIR" Guid="{7F43DC34-48FF-483E-859D-9C2DCFA75290}">
+        <File Id="fil9FA67910C7EA61F176A712D53FBAD39E" KeyPath="yes" Source="..\..\Textures\CheckBox_check.png" />
+      </Component>
+      <Component Id="cmpB62F65822085BD9446D24140362E196B" Directory="TEXTURESDIR" Guid="{54DA66DE-EA27-47AA-97AF-A7F09784166D}">
+        <File Id="fil12B6613E0B66F8BE5DE79AE3D63E456F" KeyPath="yes" Source="..\..\Textures\CheckBox_default.png" />
+      </Component>
+      <Component Id="cmp098D6DBBB9DD6D5B01DE314D1B7234DF" Directory="TEXTURESDIR" Guid="{1322EC17-F43A-4EE7-9546-3E8FA0BC9E62}">
+        <File Id="fil46FF66F48E02F5C97762B9893D76672B" KeyPath="yes" Source="..\..\Textures\CheckBox_mouse_over.png" />
+      </Component>
+      <Component Id="cmp5691A00BDE2D017D5731C64FE3549509" Directory="TEXTURESDIR" Guid="{AE2C7F9D-3FA9-4F2B-89CD-B38826D00E59}">
+        <File Id="fil6749C7D7E481D86C6CD4FB0D9637DF1F" KeyPath="yes" Source="..\..\Textures\CheckBox_mouse_over_and_check.png" />
+      </Component>
+      <Component Id="cmp46B873E5A397A94028F7556BD234BC4D" Directory="TEXTURESDIR" Guid="{92A3DC34-56AF-4997-8434-7C277B946489}">
+        <File Id="fil9BCF9A18CD40066B9585A015E0AD8A70" KeyPath="yes" Source="..\..\Textures\CreateGame_default.png" />
+      </Component>
+      <Component Id="cmpF1A104BF76556CC8925A561808CAEFAA" Directory="TEXTURESDIR" Guid="{9B2690E3-6CC3-4F95-866C-FE9040FDB877}">
+        <File Id="fil099D1878F486EE9E3CE927E5C37791E9" KeyPath="yes" Source="..\..\Textures\CreateGame_mouse_over.png" />
+      </Component>
+      <Component Id="cmp266AC781237D7F3D54F66E831BD17723" Directory="TEXTURESDIR" Guid="{CA9565CE-3AB4-41D1-92A4-23EDBFA3B5C3}">
+        <File Id="fil50EE29451FE237F488267E3892AE9203" KeyPath="yes" Source="..\..\Textures\CreateGame_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp296AC87C7E175A4818BBEC580518A70C" Directory="TEXTURESDIR" Guid="{3F5A2D5A-B14F-4C43-8777-443D63C0A62C}">
+        <File Id="filFF35F91E9AA8B202EC9D4AAC10766C9D" KeyPath="yes" Source="..\..\Textures\CreateGame_pressed.png" />
+      </Component>
+      <Component Id="cmpB804AD696238EDC734EADF6566DE65D3" Directory="TEXTURESDIR" Guid="{AF2A0E95-BE53-4BF8-810E-4FB1DE54CE5D}">
+        <File Id="filE8C91F575BB638F944F1D9BCD68BBB91" KeyPath="yes" Source="..\..\Textures\grass01.png" />
+      </Component>
+      <Component Id="cmp42EF097E42114EC6D38D9FF081CC0650" Directory="TEXTURESDIR" Guid="{770FF2D7-C004-496A-AA95-E7AD90C39CBE}">
+        <File Id="filB1B8BFDE0E6A5FC6A5A75223AEE4A331" KeyPath="yes" Source="..\..\Textures\grass02.png" />
+      </Component>
+      <Component Id="cmp7F36C985C8FB30C508E72AD6218DE38B" Directory="TEXTURESDIR" Guid="{2DDC7477-CBC9-44C8-84DE-F8EBCB7DBB80}">
+        <File Id="fil0F8FDBFC3CDA4CB554B93EBFCE701925" KeyPath="yes" Source="..\..\Textures\GUITest01.png" />
+      </Component>
+      <Component Id="cmp0B55629B1F7B01F4009299184168C9D9" Directory="TEXTURESDIR" Guid="{F95D30D0-BB12-421B-96BE-01AF55D11886}">
+        <File Id="filFF37BF383A8B91FF22003BF9FB890E5A" KeyPath="yes" Source="..\..\Textures\JoinGame_default.png" />
+      </Component>
+      <Component Id="cmpF67B189B020D4CB8F614521C07B46DA9" Directory="TEXTURESDIR" Guid="{6A4F2B99-7B29-49BC-ADAB-8B6C4480C805}">
+        <File Id="fil55C77BC3E1E07DBFC4F1E93147130E82" KeyPath="yes" Source="..\..\Textures\JoinGame_mouse_over.png" />
+      </Component>
+      <Component Id="cmp4C12F6BF14E2800C91896840C0837A73" Directory="TEXTURESDIR" Guid="{EB72EB5E-FAA4-4B70-96FF-48BBC9A5917E}">
+        <File Id="filFFE46A8F2C150FE388A31F8B1484D57A" KeyPath="yes" Source="..\..\Textures\JoinGame_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp776397ED52328465C1175BE3CF653F0D" Directory="TEXTURESDIR" Guid="{9ED0BE1F-F19A-4E63-BEDF-0BF3F1F3287D}">
+        <File Id="filC81EF297EEA2A2574B4D8B5C3A9FBFD7" KeyPath="yes" Source="..\..\Textures\JoinGame_pressed.png" />
+      </Component>
+      <Component Id="cmp4F755F8F55510C3F34563B644835E80B" Directory="TEXTURESDIR" Guid="{DD4DB122-C76E-4B90-8537-C747B12A9DF4}">
+        <File Id="fil217F634CD552AFFFD35D1D45143A7607" KeyPath="yes" Source="..\..\Textures\List.png" />
+      </Component>
+      <Component Id="cmp181960CD186C28BB87C9FBBF0D1B0808" Directory="TEXTURESDIR" Guid="{9D595D37-5CF2-4733-90D3-77B759DF782C}">
+        <File Id="fil2E70AB22273F4437986F1AF0B27FABE2" KeyPath="yes" Source="..\..\Textures\ListElement_default.png" />
+      </Component>
+      <Component Id="cmp1D8E24F53FD0496C891AA2CABB45D4C5" Directory="TEXTURESDIR" Guid="{4B19DFA1-78DC-4011-8B70-7EFFCEDA2D48}">
+        <File Id="filC05B2A91C0C3D2632E306FB0029306F4" KeyPath="yes" Source="..\..\Textures\ListElement_mouse_over.png" />
+      </Component>
+      <Component Id="cmpB37E4DC6475843BA15357A9ED1189925" Directory="TEXTURESDIR" Guid="{BF8914F6-2C96-4102-A657-B752B2DC4CC5}">
+        <File Id="fil8781F3B11E7F662219E84A45B8BC05EB" KeyPath="yes" Source="..\..\Textures\ListElement_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmpC19AC05E1BACF96656BAFFA3B67C65EF" Directory="TEXTURESDIR" Guid="{DEA6B6DC-C5F5-4B22-83F2-31808D987790}">
+        <File Id="filAD1831D916BC81226D97F47418483E3A" KeyPath="yes" Source="..\..\Textures\ListElement_pressed.png" />
+      </Component>
+      <Component Id="cmp3B0EBEF4F23D7911C21EFC0B70E0356A" Directory="TEXTURESDIR" Guid="{2071BA6F-C42D-40F4-B9F3-22D1B6F49723}">
+        <File Id="fil241B2E467AE2AB88D5435423180FA13F" KeyPath="yes" Source="..\..\Textures\MapEdit_default.png" />
+      </Component>
+      <Component Id="cmp0FB67C94B5088A1AE6F39618766ACEB8" Directory="TEXTURESDIR" Guid="{AFE4EC1B-8A86-46EE-A7CB-37C1F2A7AFBA}">
+        <File Id="filFB44834BDDAB8B44495CFECB4A01C55C" KeyPath="yes" Source="..\..\Textures\MapEdit_mouse_over.png" />
+      </Component>
+      <Component Id="cmpA95244B7789AF3A124181FFC706F99D8" Directory="TEXTURESDIR" Guid="{7C9D4BC4-6EE5-4CF0-B12A-B2A8E05E98BE}">
+        <File Id="fil0EB3D813D1C7E57EEBC7647B7C854851" KeyPath="yes" Source="..\..\Textures\MapEdit_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp87268CF001DBCE3A354BF3B09474F1FB" Directory="TEXTURESDIR" Guid="{BF942FF4-54A2-4CA0-93F6-E16296967342}">
+        <File Id="filAD5E8CC617A6F43643F014CBD88731FB" KeyPath="yes" Source="..\..\Textures\MapEdit_pressed.png" />
+      </Component>
+      <Component Id="cmp022844C9F9E51402059EF1823752489F" Directory="TEXTURESDIR" Guid="{FDA48108-75F7-40A2-A781-E19EF30B71CE}">
+        <File Id="filC4AC958FB2FB8EB2C3A7634161EE72C4" KeyPath="yes" Source="..\..\Textures\MessageBox.png" />
+      </Component>
+      <Component Id="cmpCFE2404DFF0D0FCF60C7D2DF50814F8E" Directory="TEXTURESDIR" Guid="{A18A6E13-CF2A-4CE3-B1F6-6EC0B2D0E63C}">
+        <File Id="filBAF3E3A4CCE9991FD8FEE7065859BDAF" KeyPath="yes" Source="..\..\Textures\OK_default.png" />
+      </Component>
+      <Component Id="cmp8D3CFB54C6C54A6AA3C97AB618DE412F" Directory="TEXTURESDIR" Guid="{6986D888-39D3-441B-BEE6-3058234A381E}">
+        <File Id="fil90A102EE0C399704AEC8F5C0EA5AB4D6" KeyPath="yes" Source="..\..\Textures\OK_mouse_over.png" />
+      </Component>
+      <Component Id="cmp1108643F642C4AE91BE8F2247E7B3977" Directory="TEXTURESDIR" Guid="{38727F05-D17D-4380-91B7-AEBE44510839}">
+        <File Id="filB3EB4EC716928727E24A7398F4D30FFA" KeyPath="yes" Source="..\..\Textures\OK_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp5F63D0A5ED807ECEFB955FC5BF44D64B" Directory="TEXTURESDIR" Guid="{3C9057F7-975A-494E-AB04-7FF3161084D1}">
+        <File Id="fil497CAB5C8156967265C042679C6ECE09" KeyPath="yes" Source="..\..\Textures\OK_pressed.png" />
+      </Component>
+      <Component Id="cmpA579F93271E28B2A8E3D40F2067BAAE4" Directory="TEXTURESDIR" Guid="{397F76D1-5834-4EBD-B852-216637B8992A}">
+        <File Id="filF3F68F01C3D9CF8F00DBAC01B4E949D4" KeyPath="yes" Source="..\..\Textures\Quit_default.png" />
+      </Component>
+      <Component Id="cmpB305257AB86C27F7AA6C8A2224193DDD" Directory="TEXTURESDIR" Guid="{7465C9E1-CCD6-49B4-87CE-8780EA6C5F22}">
+        <File Id="filF248C610CBDF1EF27149728627A0CC0B" KeyPath="yes" Source="..\..\Textures\Quit_mouse_over.png" />
+      </Component>
+      <Component Id="cmp6F8DBD318D724E30A97BC943165CBF12" Directory="TEXTURESDIR" Guid="{8EB91734-DC21-4744-9D2F-F5F2FE128B97}">
+        <File Id="filDB92117B6717F395BDFAC19870838693" KeyPath="yes" Source="..\..\Textures\Quit_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp167900CD24D6750D767DA5BC109DD763" Directory="TEXTURESDIR" Guid="{0BBC3B99-A67F-4B69-9CC9-E08281B9146A}">
+        <File Id="fil4BC1B1B951D07459875313F273E16256" KeyPath="yes" Source="..\..\Textures\Quit_pressed.png" />
+      </Component>
+      <Component Id="cmp25C2E51D1D0FC919DDB740787D176093" Directory="TEXTURESDIR" Guid="{F3346971-7BA9-4469-AA75-F75C4B0BD675}">
+        <File Id="filA73C2A570D2919A4372F37514D06638B" KeyPath="yes" Source="..\..\Textures\RadioButton_default.png" />
+      </Component>
+      <Component Id="cmpB30971B81CEB70BF32BD9FB82A4194EC" Directory="TEXTURESDIR" Guid="{C30F0882-F261-4E5D-B4CE-3BFC3D62DCC3}">
+        <File Id="filBFD929E601E247A67C6D563B89355EEE" KeyPath="yes" Source="..\..\Textures\RadioButton_mouse_over.png" />
+      </Component>
+      <Component Id="cmp6BEDF0D4A10CA6F90BCA084BD1100A05" Directory="TEXTURESDIR" Guid="{1D06AF94-F97C-468D-9E76-1052247C0418}">
+        <File Id="fil9DA0663DBB77FA6B75AC964610634A41" KeyPath="yes" Source="..\..\Textures\RadioButton_mouse_over_and_select.png" />
+      </Component>
+      <Component Id="cmpA45EC371122CDD9BE1238260B797442C" Directory="TEXTURESDIR" Guid="{957C635A-0F58-4139-993F-AA153CFF5E3B}">
+        <File Id="filCEE022337E268C81D0A4464B6DC1B347" KeyPath="yes" Source="..\..\Textures\RadioButton_select.png" />
+      </Component>
+      <Component Id="cmp46D217B0B52C35BDD92EB7782DBDB38E" Directory="TEXTURESDIR" Guid="{F4DF1D0B-5012-428A-AAA4-6C43B460EE10}">
+        <File Id="filF0F0617A60B2FB4121F783A5BFD23607" KeyPath="yes" Source="..\..\Textures\rock01.png" />
+      </Component>
+      <Component Id="cmp88F63D51527ED671239BB384202F0AB1" Directory="TEXTURESDIR" Guid="{C3719783-409D-4BED-9025-FDEE1836DEC0}">
+        <File Id="fil03CE072F689B3F997806925E34B715AA" KeyPath="yes" Source="..\..\Textures\sand01.png" />
+      </Component>
+      <Component Id="cmpF20215B89921A825E268614B42B89D1C" Directory="TEXTURESDIR" Guid="{E2952C28-72C1-4962-A9C7-8CA688BEE13D}">
+        <File Id="fil9FD379CC0D8AEF04D58B56E4E5D44ABE" KeyPath="yes" Source="..\..\Textures\Scrollbar_default.png" />
+      </Component>
+      <Component Id="cmp8D822453552CF01E1D18B78C0491381C" Directory="TEXTURESDIR" Guid="{D7323BBA-AD46-4405-9832-34B9C163062D}">
+        <File Id="fil396E4830EDDE17B82643C17E0AF3D324" KeyPath="yes" Source="..\..\Textures\Scrollbar_mouse_over.png" />
+      </Component>
+      <Component Id="cmp7DF6DCFD9C0A84E46AA3D92AB6B66505" Directory="TEXTURESDIR" Guid="{A1FFFCD9-ABD8-4EC9-94B2-D258978133F6}">
+        <File Id="filE7A8D74E4DB11F923390A89D2E899F0F" KeyPath="yes" Source="..\..\Textures\Scroll_down_default.png" />
+      </Component>
+      <Component Id="cmp1DC5CF151BA2BEECC800734ECA96DE9D" Directory="TEXTURESDIR" Guid="{8779CD28-4198-4E5F-9801-246ACA3200B1}">
+        <File Id="fil0BEF7AFB6684373A40D4DC22834A02D3" KeyPath="yes" Source="..\..\Textures\Scroll_down_mouse_over.png" />
+      </Component>
+      <Component Id="cmp5CAB411B495096555F6B835600C51150" Directory="TEXTURESDIR" Guid="{9D0D0AD8-DA0B-4AA2-A5F9-01F8E12349DC}">
+        <File Id="filA7AAC5336AEA919AAEC1A4A2C3A0FB56" KeyPath="yes" Source="..\..\Textures\Scroll_down_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp10208B311E2B01E9ADB6940CA183F3CB" Directory="TEXTURESDIR" Guid="{664C1B47-16F8-4123-849D-56A63C81F816}">
+        <File Id="fil8FFAC5DB478D3C03DAAEA07C78172C57" KeyPath="yes" Source="..\..\Textures\Scroll_up_default.png" />
+      </Component>
+      <Component Id="cmp4C530774B3743BF270410FF8CBDA3AC9" Directory="TEXTURESDIR" Guid="{D93048EC-897E-474D-BC13-ACC72D8B743A}">
+        <File Id="fil275A3E76D8F63EBAD18484B292D482C6" KeyPath="yes" Source="..\..\Textures\Scroll_up_mouse_over.png" />
+      </Component>
+      <Component Id="cmp55E0A1860CBC4C2BA69FD6FEC0DD14BF" Directory="TEXTURESDIR" Guid="{FB3C4B5D-68F3-454D-9302-B727BD1C76EF}">
+        <File Id="filF1DB4A62AE9AC1A418CA1F8D3A9C9F27" KeyPath="yes" Source="..\..\Textures\Scroll_up_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp9A0198C56C2E9AA279448D9DDC73120E" Directory="TEXTURESDIR" Guid="{00DB2E7C-B273-4DEB-AF5E-4A474B6F0760}">
+        <File Id="fil4BDAEFBC300EA1888A56006603BC28D0" KeyPath="yes" Source="..\..\Textures\Send_default.png" />
+      </Component>
+      <Component Id="cmp76567D3C7FE317941753D5FA69A65443" Directory="TEXTURESDIR" Guid="{5CF6422E-7EC8-4ED9-A49C-86EBDA8BBD7E}">
+        <File Id="fil962C464E1916A88C03E664FE31BDF8D2" KeyPath="yes" Source="..\..\Textures\Send_mouse_over.png" />
+      </Component>
+      <Component Id="cmpA3CF08B85F56E893DD411BC6BEFFAFB3" Directory="TEXTURESDIR" Guid="{7D0DA5B9-524D-4A02-A900-1576634F1A18}">
+        <File Id="filE24FD2AF2F1A4226D63B121316ADAFAF" KeyPath="yes" Source="..\..\Textures\Send_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp2B2DED3FDCB157562BC8B91B52B34A8B" Directory="TEXTURESDIR" Guid="{4C3352C9-F02A-4E9E-BD30-7EDF4D0CB788}">
+        <File Id="fil0AF88DA6E658FA25B1BCCC3A8D0C6619" KeyPath="yes" Source="..\..\Textures\Send_pressed.png" />
+      </Component>
+      <Component Id="cmp0165A72B1AE575D702DF063433CCB340" Directory="TEXTURESDIR" Guid="{9188DA5D-A225-49FB-91FC-8CB8F140C367}">
+        <File Id="fil22CB622A158C088673AE010937500F9F" KeyPath="yes" Source="..\..\Textures\SignIn_default.png" />
+      </Component>
+      <Component Id="cmpEAD49394992434B94E90442A4607B810" Directory="TEXTURESDIR" Guid="{FCFC9697-9FAE-4C38-BC7C-FCD5C19DEF57}">
+        <File Id="filC644B21F8A9AC64334505225906F9C53" KeyPath="yes" Source="..\..\Textures\SignIn_mouse_over.png" />
+      </Component>
+      <Component Id="cmp75F42BF5484BB915F688F1AF301175CB" Directory="TEXTURESDIR" Guid="{DCF52A53-A424-4AB8-8D6B-2F11EB694E5F}">
+        <File Id="filD06847FC6E5CF9B71433EC5D9F9A1F4D" KeyPath="yes" Source="..\..\Textures\SignIn_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp2C7562AECBE80ADB31AC284915380819" Directory="TEXTURESDIR" Guid="{D8FA3A39-90DF-44AB-BA3E-8D9189E6328B}">
+        <File Id="fil9A4FCE53A68C108DD2F9C0251546D795" KeyPath="yes" Source="..\..\Textures\SignIn_pressed.png" />
+      </Component>
+      <Component Id="cmpF00562874EC54D1A1AA6A9A6E8B687FC" Directory="TEXTURESDIR" Guid="{A1F14DCA-9322-438F-83E1-9920246337FD}">
+        <File Id="fil4DC7F9F5A6C609E23C5F1C893F75B8B5" KeyPath="yes" Source="..\..\Textures\StartGame_default.png" />
+      </Component>
+      <Component Id="cmp0E75A2EBD3F25A5FF3B9F9387810D4B3" Directory="TEXTURESDIR" Guid="{929BD6D4-1F9E-438F-B908-073EB0ABB219}">
+        <File Id="fil97BEF0BFA5036FFF681B3B7E5B04F8BF" KeyPath="yes" Source="..\..\Textures\StartGame_mouse_over.png" />
+      </Component>
+      <Component Id="cmpCBDDC1E17D03FC905F8F3CEA1B03FD55" Directory="TEXTURESDIR" Guid="{F704D81A-167C-496D-9F99-0A6389F46CEC}">
+        <File Id="fil143BE2847495546010C000C37151FC7D" KeyPath="yes" Source="..\..\Textures\StartGame_mouse_over_and_pressed.png" />
+      </Component>
+      <Component Id="cmp336F94E330D17803746A23ABFFA6C88B" Directory="TEXTURESDIR" Guid="{344D0B20-5A82-4DEF-8705-B80B3702C8CB}">
+        <File Id="fil45D7B9A3F101FA461A92F745183CE06B" KeyPath="yes" Source="..\..\Textures\StartGame_pressed.png" />
+      </Component>
+      <Component Id="cmpE61BE9DBCA245ED185F88FD518A7018D" Directory="TEXTURESDIR" Guid="{031C8B82-82C4-44E7-9BEC-DA2678806F0D}">
+        <File Id="fil52E723B8AA62EC6D7E77E0D7FDB41A81" KeyPath="yes" Source="..\..\Textures\test.bmp" />
+      </Component>
+      <Component Id="cmpE2BECB304CA9EFFFC045A2ADBD4BC0A5" Directory="TEXTURESDIR" Guid="{17D0A32C-8433-4CAD-AEAC-E5A6C7B3A5B0}">
+        <File Id="fil35F0089FEAF5626F3C5B37CE8A824367" KeyPath="yes" Source="..\..\Textures\TestMenu.bmp" />
+      </Component>
+
+      <Component Id="cmp7102011F80EC07A6DC4337F17BDA7E65" Directory="FONTSDIR" Guid="{96C29BA6-B9D4-4633-97A0-011B6EF3A1E3}">
+        <File Id="fil389A60C8FC7BF93CE0E53A98E33E8DBB" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_0.png" />
+      </Component>
+      <Component Id="cmp4E71FC82260792027D663A86F630EE07" Directory="FONTSDIR" Guid="{A5D8C84E-9848-4337-A140-1DF1A987220F}">
+        <File Id="fil34405090393CFEA20947635527F453DC" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_1.png" />
+      </Component>
+      <Component Id="cmp1F52B3AF1442CF4F1A9E2796654FAE7C" Directory="FONTSDIR" Guid="{F829F359-09A9-4579-A9C0-C40B94A11949}">
+        <File Id="fil336B497F1BF0554EB68362C9418D1A77" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_2.png" />
+      </Component>
+      <Component Id="cmp747E049978209A6E127FB6660E69BD9D" Directory="FONTSDIR" Guid="{067DC8AD-09E0-4FDC-8F43-F92D00274B64}">
+        <File Id="filA61B7F3B05A4502F8AA25C21EB94C814" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_3.png" />
+      </Component>
+      <Component Id="cmpED9DAC6A96437F9B947AE0EA4C0ACBCA" Directory="FONTSDIR" Guid="{3CA4CB22-7DBF-47D0-B5C0-AF8F58A2719A}">
+        <File Id="fil4D930C4802A34D69CCECEE929AC511A4" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_4.png" />
+      </Component>
+      <Component Id="cmpD79EAE166CD762891628B77A04C080A2" Directory="FONTSDIR" Guid="{DCE1DCAE-1A25-4BEC-8DDA-DD8444B77720}">
+        <File Id="filA735B3EB165324BFA92B3282BFBF9909" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_5.png" />
+      </Component>
+      <Component Id="cmpF45BD593A8BFDDD22F370AF091D9A61D" Directory="FONTSDIR" Guid="{AF8E58A2-E31D-4361-B9E8-DDD6FC55F43C}">
+        <File Id="fil75A36487D96D746C3683CF6015FA7B9E" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_6.png" />
+      </Component>
+      <Component Id="cmpF1E38F6792447CC89B7F35CAA583EB8F" Directory="FONTSDIR" Guid="{3262E5E2-7FD2-46BC-B251-A708330BB185}">
+        <File Id="filABC44C8FDE8C5A82B53ADF64DA6D71C9" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_7.png" />
+      </Component>
+      <Component Id="cmp005FE7C9FF389AA999FD5E6DCBA0F75C" Directory="FONTSDIR" Guid="{DF633A61-F873-448D-83D1-ACFE40DBF6E7}">
+        <File Id="fil62C79E1D2017750F66E25717DF6D41C4" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_8.png" />
+      </Component>
+      <Component Id="cmpD247F74E0165E8654B213D19B6E17D84" Directory="FONTSDIR" Guid="{D4F9EB72-4220-45D6-B984-2A9C800339A2}">
+        <File Id="filF37347C8BBAC8BC41C12338F5E0B98DE" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_9.png" />
+      </Component>
+      <Component Id="cmp091D30F01F840C21C0D0346B77C9702E" Directory="FONTSDIR" Guid="{E2EA5C11-CA23-4506-A36D-F617F8FE2AF1}">
+        <File Id="fil4F83317BEC2B73BDEE41325F9F17D10F" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_A.png" />
+      </Component>
+      <Component Id="cmp870F80015CF2C8B4799FB2781EB5C428" Directory="FONTSDIR" Guid="{080D3DBE-310F-4CEC-867F-3BB47A96D38E}">
+        <File Id="fil4C0C23E844422BB0FD5351836CE03508" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_B.png" />
+      </Component>
+      <Component Id="cmp0CD1F009BFBA38A0128B95779DF7D189" Directory="FONTSDIR" Guid="{CC7A13A7-9A55-4F0D-98FE-1FFE83586BBE}">
+        <File Id="filAC7F774E52087C614218B95AE288B616" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_C.png" />
+      </Component>
+      <Component Id="cmpED54CA2E64F65151C321B3322ADDFBBB" Directory="FONTSDIR" Guid="{75E51745-8EC9-4027-8D1D-0EDF9C3C0454}">
+        <File Id="fil73CB7E3C8F3F20537E2A472DC62FB32F" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_Comma.png" />
+      </Component>
+      <Component Id="cmp75F3EF0AC1BED1E437407AA486F639C2" Directory="FONTSDIR" Guid="{3F685FE3-D12B-48AE-A4B6-E2A5B4131142}">
+        <File Id="fil134006A2E3B3F1985F7A9ADA2FD947BC" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_D.png" />
+      </Component>
+      <Component Id="cmp3A6191EB8153F05E5E71D4603D690AF4" Directory="FONTSDIR" Guid="{C59738E5-5AB9-43B3-9355-7DB87528AAB7}">
+        <File Id="filC552F51BEA295D9CCA107AAB497EA8D1" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_Dot.png" />
+      </Component>
+      <Component Id="cmpEC175E175271E87A7C322715D7D53475" Directory="FONTSDIR" Guid="{7BBA610F-8180-4EA4-AE1E-7AC6CC32EC14}">
+        <File Id="filB593EB007D317D8673C105D19411D8A2" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_E.png" />
+      </Component>
+      <Component Id="cmp30974FEE3BB87BCD038C18C559C4EC02" Directory="FONTSDIR" Guid="{768E0F98-0E4D-498B-B958-A3F6BA9C47BD}">
+        <File Id="fil25BB0595E7C13AA7E1B2B4717C0EA437" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_F.png" />
+      </Component>
+      <Component Id="cmp8554B8BBD813C85AD8615F1229BB59C1" Directory="FONTSDIR" Guid="{0F5CA0A0-BFB4-4B8A-9F85-D1EBDAB1E460}">
+        <File Id="fil7047642394A29844CA4A2CDEE6FE281B" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_G.png" />
+      </Component>
+      <Component Id="cmp7B79C7DA088226C536903BB9F440BCF2" Directory="FONTSDIR" Guid="{3A51141F-33C6-4D55-997B-463897C36EBF}">
+        <File Id="filFA524F6D83B0DE4DA9418A156AFD5DDA" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_H.png" />
+      </Component>
+      <Component Id="cmp0AE343FD09D5973368F7CAD6A00F428A" Directory="FONTSDIR" Guid="{79DAC445-484B-4E6E-B258-D239B33FAE30}">
+        <File Id="fil30F9469C895CFF1627E44A74527E4456" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_I.png" />
+      </Component>
+      <Component Id="cmp686115C9E3CABD0AB64139123640C617" Directory="FONTSDIR" Guid="{A863868D-0E40-42A3-85D3-34F46F0239DF}">
+        <File Id="filAB37B5E293937AE1D0C6C4802CA8CAFB" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_J.png" />
+      </Component>
+      <Component Id="cmp6E92701D901684375AF7E9F5037C1F59" Directory="FONTSDIR" Guid="{F7C28AF6-2AAD-431D-B1CB-CFE4620EF495}">
+        <File Id="fil3B051ADEEDAAA16C050BC5181E1C236B" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_K.png" />
+      </Component>
+      <Component Id="cmpB4B105E2E7CB1E0A76BA1C1D04F76792" Directory="FONTSDIR" Guid="{A6556D41-4317-49A9-9F8D-D8489FBEA39E}">
+        <File Id="fil4A9E4EC33536847129794FE060775CAC" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_L.png" />
+      </Component>
+      <Component Id="cmp9FE258AFE1A59C5C74A4A5B92A581B78" Directory="FONTSDIR" Guid="{278538E6-4EB0-4ABE-AAF6-98C826BA1B16}">
+        <File Id="filF7C41E81FCF361D7915355CDFE17F6E7" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_M.png" />
+      </Component>
+      <Component Id="cmp2E55F0F1CC6A6DAD09A66BA96F1B5E60" Directory="FONTSDIR" Guid="{64E1E357-0051-4937-B038-D6FEFA46883B}">
+        <File Id="filA0D58C644055056FF7C4285717DFC852" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_N.png" />
+      </Component>
+      <Component Id="cmp20B3494974A6D21B90AA9DCAFCD5D7F8" Directory="FONTSDIR" Guid="{9C48A08E-3B2B-477A-8644-3EB73847EBD2}">
+        <File Id="filDED238A5D023B6323B8EFD0400549294" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_O.png" />
+      </Component>
+      <Component Id="cmpB54EF2DFB15B532B2C3360DF8FF082CE" Directory="FONTSDIR" Guid="{452779A1-B0AA-491E-A31B-8CAFF701821B}">
+        <File Id="fil7719CC440595A1A1FEFE1A0F71B6A61E" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_P.png" />
+      </Component>
+      <Component Id="cmp8432D270BB7380ED64B7254FF286D166" Directory="FONTSDIR" Guid="{C2FB9F46-2A10-44C3-AED8-3D0DDA62EF1D}">
+        <File Id="fil422E0A256FD8BCD8A10CE7698EA10218" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_Q.png" />
+      </Component>
+      <Component Id="cmpD7E6C94ED7A3CCFF5060D5D43C5B7F17" Directory="FONTSDIR" Guid="{79C39B3B-54C9-4B22-8C78-130DFF5BF96C}">
+        <File Id="fil7A94559FCF695CEC8C7CF588A5D13BB6" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_R.png" />
+      </Component>
+      <Component Id="cmpAD474260ADD73EFBBF98ABA2E78F9225" Directory="FONTSDIR" Guid="{A390CD95-147A-4BC4-A24D-439ABA501925}">
+        <File Id="fil4A42D402DBEA8F41163EF4308B568524" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_S.png" />
+      </Component>
+      <Component Id="cmp88875394DF33390DE0D3AD08C5EB72DE" Directory="FONTSDIR" Guid="{0BA74884-D65A-4120-8604-E4122CCE6986}">
+        <File Id="fil4D51597BBA325C7F5AED2ECFD6F032CB" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_Space.png" />
+      </Component>
+      <Component Id="cmp1982DF240F01AD15533DC5343D9C0226" Directory="FONTSDIR" Guid="{34C78974-6087-487E-8E2A-B19A2FF35517}">
+        <File Id="filCF184C120143237C32D4B33476486380" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_T.png" />
+      </Component>
+      <Component Id="cmp9AFA488112A8C827955E01FC9E6ED90E" Directory="FONTSDIR" Guid="{F05DC47D-2926-4999-A5FF-94FDF03C5830}">
+        <File Id="fil168B8F9D14279B69DF7994AC14C47D16" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_U.png" />
+      </Component>
+      <Component Id="cmpB67514600BBF94FAE90D285DF7A4E183" Directory="FONTSDIR" Guid="{C472CEC7-DF2D-42FB-84B1-0DDD3811990E}">
+        <File Id="filD4C535F1B69BE5E4C7D3A58E68C0547F" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_V.png" />
+      </Component>
+      <Component Id="cmp3D9000540E2E49D67FAFD3A9C6CFF0AA" Directory="FONTSDIR" Guid="{2CC2901B-7F46-49DC-92D3-5CD59183D924}">
+        <File Id="fil36088C71F38AE88F4B844436CA4B5A2B" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_W.png" />
+      </Component>
+      <Component Id="cmp26B0B6269A581902B7CC77C5E6594862" Directory="FONTSDIR" Guid="{EFC0705F-652A-4D64-9B5C-761F9379A1C6}">
+        <File Id="filBCADB775F925F2A64A64752801F64CFE" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_X.png" />
+      </Component>
+      <Component Id="cmpC50059797198D7ED4A3B2F3C95A5852D" Directory="FONTSDIR" Guid="{D73F9DAC-423E-43D5-859E-EFD9E23988EB}">
+        <File Id="fil023A12404AC5EBE8B5FFAD2B790FFA5D" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_Y.png" />
+      </Component>
+      <Component Id="cmp105665A59D8FEE4CE6E42200AB9C20C2" Directory="FONTSDIR" Guid="{8099474F-8131-4937-94B7-FC8549B4F24C}">
+        <File Id="fil3775B6AB6CC426E67FCEF0A250D8F716" KeyPath="yes" Source="..\..\Textures\BTFont\BTF_Z.png" />
+      </Component>
+
+      <Component Id="cmpFEEA1977CA7195DBCE87D62B4BF2DD0C" Directory="GROUNDDIR" Guid="{A8C86A3D-BC42-4D8F-9FA8-13CDB2DA4581}">
+        <File Id="fil46F8E896F6E3DA3D865764098100BAF5" KeyPath="yes" Source="..\..\Textures\Ground\tile01.png" />
+      </Component>
+      <Component Id="cmpB332BB05AC1733DF5D46A5AA31B8AFEB" Directory="GROUNDDIR" Guid="{FDDA0FCE-4395-4DD3-B7DF-42E510FEF62B}">
+        <File Id="filE2C41B1DCF46489D7C8F5397306698E5" KeyPath="yes" Source="..\..\Textures\Ground\tile02.png" />
+      </Component>
+      <Component Id="cmpDBE08BC41073D552A373ACEB17BCA09E" Directory="GROUNDDIR" Guid="{C16BC204-E990-412B-B829-862333A1D62F}">
+        <File Id="fil48712B97BE6248161CB274E14208A2BD" KeyPath="yes" Source="..\..\Textures\Ground\tile03.png" />
+      </Component>
+      <Component Id="cmp4D9C9B76D4F420C9F9EDD3D06885CC7B" Directory="GROUNDDIR" Guid="{A489994D-2EC2-445F-9FFF-117637207181}">
+        <File Id="fil4C197C705AE1869EC4D88B14A94FFD90" KeyPath="yes" Source="..\..\Textures\Ground\tile04.png" />
+      </Component>
+      <Component Id="tile5" Directory="GROUNDDIR" Guid="{375AE883-1FB6-4625-B361-BE803C082B9F}">
+        <File Id="tile5" KeyPath="yes" Source="..\..\Textures\Ground\tile05.png" />
+      </Component>
+      <Component Id="tile6" Directory="GROUNDDIR" Guid="{B648B868-3C2C-4b18-9522-641FDC00B072}">
+        <File Id="tile6" KeyPath="yes" Source="..\..\Textures\Ground\tile06.png" />
+      </Component>
+      <Component Id="tile7" Directory="GROUNDDIR" Guid="{6B828116-CB61-4e5d-BFB8-36943434830E}">
+        <File Id="tile7" KeyPath="yes" Source="..\..\Textures\Ground\tile07.png" />
+      </Component>
+
+      <Component Id="mainframehud" Directory="HUDDIR" Guid="{E7AC9B65-1DDC-4f17-837B-C0A05B8B75CA}">
+        <File Id="mainframehud" KeyPath="yes" Source="..\..\Textures\HUD\HUDMainFrame.png"/>
+      </Component>
+      <Component Id="scoreframehud" Directory="HUDDIR" Guid="{45A40308-CAF2-4E0D-91B6-62EAE6650065}">
+        <File Id="scoreframehud" KeyPath="yes" Source="..\..\Textures\HUD\HUDScoreFrame.png"/>
+      </Component>
+      <Component Id="weaponbeamhud" Directory="HUDDIR" Guid="{609DAAC6-46A7-4383-8F8F-D7B260503DC9}">
+        <File Id="weaponbeamhud" KeyPath="yes" Source="..\..\Textures\HUD\HUDWeaponBeam.png"/>
+      </Component>
+      <Component Id="weaponcannonhud" Directory="HUDDIR" Guid="{38412A74-04D2-45CA-9C6B-9D9F137216BC}">
+        <File Id="weaponcannonhud" KeyPath="yes" Source="..\..\Textures\HUD\HUDWeaponCannon.png"/>
+      </Component>
+      <Component Id="weaponflamehud" Directory="HUDDIR" Guid="{E29688fC-4D83-4419-B14A-38CC39262AE5}">
+        <File Id="weaponflamehud" KeyPath="yes" Source="..\..\Textures\HUD\HUDWeaponFlame.png"/>
+      </Component>
+      <Component Id="weapongausshud" Directory="HUDDIR" Guid="{596FDEf7-8E4F-47CE-8930-4B60DEC81A50}">
+        <File Id="weapongausshud" KeyPath="yes" Source="..\..\Textures\HUD\HUDWeaponGauss.png"/>
+      </Component>
+      <Component Id="weaponminigunhud" Directory="HUDDIR" Guid="{3F2FA21C-34AB-4BDC-A804-31518285CF34}">
+        <File Id="weaponminigunhud" KeyPath="yes" Source="..\..\Textures\HUD\HUDWeaponMinigun.png"/>
+      </Component>
+      <Component Id="weaponpulsehud" Directory="HUDDIR" Guid="{9B4FF7B3-7338-4A53-9559-E10C86BCB015}">
+        <File Id="weaponpulsehud" KeyPath="yes" Source="..\..\Textures\HUD\HUDWeaponPulse.png"/>
+      </Component>
+
+      <Component Id="cmp607F66A37AD87DB2AEF8C7B5DCA66AB2" Directory="PARTICLESDIR" Guid="{5E3ED0EE-0C0F-4312-B1ED-9CE91941AD85}">
+        <File Id="fil43207D661D03609A386A29FD7BE1401C" KeyPath="yes" Source="..\..\Textures\Particles\BigExplosion.png" />
+      </Component>
+      <Component Id="cmp97D2CCF00B521A70480C06EE24C9981E" Directory="PARTICLESDIR" Guid="{D407F064-740B-4E08-998C-A0887E6CE436}">
+        <File Id="fil6893748BC3DB0D598AACD87F9E3FFCDB" KeyPath="yes" Source="..\..\Textures\Particles\GunSparks.png" />
+      </Component>
+      <Component Id="cmp29DCA21E057917B6F9A86CE7803049FF" Directory="PARTICLESDIR" Guid="{2E41BC89-A5D6-4C9B-83EB-3FA3D249D28F}">
+        <File Id="filB3C06399B2C96F3C8D6E7C5047FC3B82" KeyPath="yes" Source="..\..\Textures\Particles\pulse.png" />
+      </Component>
+      <Component Id="cmp9839F7D54277BE31A161AD81E91C1CFD" Directory="PARTICLESDIR" Guid="{B56D2292-9C36-47DD-963F-0F01A9AB1976}">
+        <File Id="fil36ECCF95414B31AC075A545D16D34921" KeyPath="yes" Source="..\..\Textures\Particles\pulse2.png" />
+      </Component>
+      <Component Id="cmp1E1351720A47D35B1622ADB61CDC4734" Directory="PARTICLESDIR" Guid="{83305556-FBD1-4B36-8B12-346E256FA544}">
+        <File Id="fil11608EABF7A7E466B18CEA2B83DD658E" KeyPath="yes" Source="..\..\Textures\Particles\pulsee.png" />
+      </Component>
+      <Component Id="cmpDA72A9C52A58151C19F974FA922CF8BD" Directory="PARTICLESDIR" Guid="{B94F0143-544C-4A3C-B432-A9D594B7C3DD}">
+        <File Id="fil32CF31D05656F82AAA5AA1D4563DED41" KeyPath="yes" Source="..\..\Textures\Particles\pulsee2.png" />
+      </Component>
+      <Component Id="cmpCD9BE264F66FBE87B3737DFE08A85FDE" Directory="PARTICLESDIR" Guid="{054DC99E-A046-4BA8-99C2-9421D818019F}">
+        <File Id="fil7A772B64E74B984C88CD0DF526E19313" KeyPath="yes" Source="..\..\Textures\Particles\TankExplosion.png" />
+      </Component>
+      <Component Id="cmpD7AAC4B7FA930C2BA2D31BE46B0E55A5" Directory="PARTICLESDIR" Guid="{47B14DD0-B25E-4589-945A-BEB6A1CF5F97}">
+        <File Id="fil537C73A6DEEB30194DAD980A7BC53FC1" KeyPath="yes" Source="..\..\Textures\Particles\flame.bmp" />
+      </Component>
+
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TEXTURESDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="FONTSDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="GROUNDDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="PARTICLESDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="HUDDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TEXTURESDIR">
+      <Directory Id="FONTSDIR" Name="BTFont" />
+    </DirectoryRef>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TEXTURESDIR">
+      <Directory Id="PARTICLESDIR" Name="Particles" />
+    </DirectoryRef>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TEXTURESDIR">
+      <Directory Id="GROUNDDIR" Name="Ground" />
+    </DirectoryRef>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="TEXTURESDIR">
+      <Directory Id="HUDDIR" Name="HUD" />
+    </DirectoryRef>
+  </Fragment>
+</Wix>

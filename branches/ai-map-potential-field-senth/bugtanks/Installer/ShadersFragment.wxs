@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    <DirectoryRef Id="INSTALLDIR">
+      <Directory Id="SHADERDIR" Name="Shaders" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment Id="ShaderFragment">
+    <ComponentGroup Id="ShadersGroup">
+      <Component Id="cmp8700EF12997954EF08AEB6E941F888D3" Directory="SHADERDIR" Guid="{7D36B92B-2E38-4869-AC27-B892B4AF19DD}">
+        <File Id="fil49B3D353C955129317DD16208AF86D4C" KeyPath="yes" Source="..\..\Shaders\BasicAnimation.fx" />
+      </Component>
+
+      <Component Id="cmp25A8E75E48E98F4645D3D01CA4C9ABB1" Directory="SHADERDIR" Guid="{66AB329A-E673-4a1f-B02A-AD901E5B1B67}">
+        <File Id="fil4736E131FA6E617FFA79D99DA58DAD99" KeyPath="yes" Source="..\..\Shaders\BasicCel.fx" />
+      </Component>
+
+      <Component Id="cmp8AEF82400141F0155B0809674DB03252" Directory="SHADERDIR" Guid="{BDEB366A-3845-4171-9FE4-AEDC4EECC569}">
+        <File Id="filF821022960BD6DB49E5C285281292DED" KeyPath="yes" Source="..\..\Shaders\BasicColor.fx" />
+      </Component>
+
+      <Component Id="cmpB4C3603875A5F216020F3C5913D9416B" Directory="SHADERDIR" Guid="{186493B4-3551-4ed1-B10C-D4F6F4BC8B32}">
+        <File Id="fil3BD9F91FB001BD2945BDA99328FB8836" KeyPath="yes" Source="..\..\Shaders\BasicGUI.fx" />
+      </Component>
+
+      <Component Id="cmp259777802BC8D3BDB00B9E469A0C7F03" Directory="SHADERDIR" Guid="{6C461375-E447-40c5-A132-ACDBF9618436}">
+        <File Id="fil76987191BAED81C312319C4B766A22E6" KeyPath="yes" Source="..\..\Shaders\BasicQuad.fx" />
+      </Component>
+
+      <Component Id="cmpB0E4B273D66280EDC610A0CB1952EE58" Directory="SHADERDIR" Guid="{6A74224E-052F-4654-B496-19CD0CE88B60}">
+        <File Id="filA65B63A3BB95BC73F004B2B34449B53C" KeyPath="yes" Source="..\..\Shaders\MainShader.fx" />
+      </Component>
+
+      <Component Id="cmp5D61799F4DFD66A7F4497B3687CA9B32" Directory="SHADERDIR" Guid="{EE103F53-2980-4539-BFCB-EDC82F55243E}">
+        <File Id="fil2820A3C10A9CEBF6E0E2CFCF544A8716" KeyPath="yes" Source="..\..\Shaders\MainShaderAnimation.fx" />
+      </Component>
+
+      <Component Id="cmp1F74091CF92BDD7DD81A42CAFC4CB055" Directory="SHADERDIR" Guid="{3D03509F-A3ED-441e-9FB5-4F610CAFFA26}">
+        <File Id="filD7C920E5BE369282F9E54DA84CD11A34" KeyPath="yes" Source="..\..\Shaders\MainShaderCel.fx" />
+      </Component>
+
+      <Component Id="cmp8F877C66A4169C7A8953C8EC31787CCA" Directory="SHADERDIR" Guid="{3881635C-2628-4a22-989C-EB636D8D6F00}">
+        <File Id="fil625FF8727D455998D2336FA3E77AFBE2" KeyPath="yes" Source="..\..\Shaders\MainShaderGUI.fx" />
+      </Component>
+
+      <Component Id="cmp5B3928C180CE150664A5A6BF754A4314" Directory="SHADERDIR" Guid="{8F8828FB-19C6-4407-B86A-2ECAB182C60B}">
+        <File Id="filA0200EC541BABDFDD50EE042446E825C" KeyPath="yes" Source="..\..\Shaders\MainShaderMultiTex.fx" />
+      </Component>
+
+      <Component Id="cmpBC0511044516949912AF7DD6434573B0" Directory="SHADERDIR" Guid="{6C2283E6-8F1C-47b1-921C-F21CE707B2C0}">
+        <File Id="fil3E125D7852E92F9F5367718DB3AAA49D" KeyPath="yes" Source="..\..\Shaders\MainShaderParticle.fx" />
+      </Component>
+
+      <Component Id="cmp3D1F1126AA6E42C4A54AE16C91B748DB" Directory="SHADERDIR" Guid="{A7107D75-F5B6-4957-AD2B-77996C80E404}">
+        <File Id="fil93EAF7CFC2305C2F11BC0DC688ADF51F" KeyPath="yes" Source="..\..\Shaders\MainShaderShadow.fx" />
+      </Component>
+
+      <Component Id="cmpD55C2C738F062046970AAD6FD4C01AE4" Directory="SHADERDIR" Guid="{91ABB753-15A1-4f1f-9681-0F53CF4807B2}">
+        <File Id="fil88243C74EB8D966531CA2275AD8597A7" KeyPath="yes" Source="..\..\Shaders\ParticleGunSparks.fx" />
+      </Component>
+
+      <Component Id="cmp37CFF49FDA85BDBEE0000B9A035A9AC1" Directory="SHADERDIR" Guid="{020DA4F1-4FAE-4a18-BDC8-21D3D912B202}">
+        <File Id="filF1639FACCC45609CA1BDCF09D52A835A" KeyPath="yes" Source="..\..\Shaders\ShaderBuffers.fx" />
+      </Component>
+
+      <Component Id="cmp3BE60F943B8DD3BC6615BF69548B45B0" Directory="SHADERDIR" Guid="{6E4218BB-D479-4dc8-94FE-480C6C409D0A}">
+        <File Id="fil0F44316122D47547CC74DC7D61F0BD07" KeyPath="yes" Source="..\..\Shaders\ShaderFunctions.fx" />
+      </Component>
+
+      <Component Id="cmp9028A30830755AEB356B93DB797398D8" Directory="SHADERDIR" Guid="{9F4DA47D-43FF-4e4e-AF25-A824A003D010}">
+        <File Id="filC4AEDA406834908DF783BAAB5CBFCBFE" KeyPath="yes" Source="..\..\Shaders\ShaderStates.fx" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="SHADERDIR" />
+  </Fragment>
+</Wix>
