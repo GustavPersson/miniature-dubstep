@@ -1,0 +1,125 @@
+/**
+ * @file
+ * @author Victor Lundberg <lundberg.victor@gmail.com>
+ * @version 1.0
+ * Copyright (©) A-Team.
+ *
+ * @section LICENSE
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of
+ * the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details at
+ * http://www.gnu.org/copyleft/gpl.html
+ */
+
+#ifndef INSTANCE_SPRITE_H
+#define INSTANCE_SPRITE_H
+#include "InstanceObject.h"
+
+namespace gfx
+{
+	/**
+	 * Class for rendering instanced sprites.
+	 */
+	class InstanceSprite : public InstanceObject
+	{
+		public:
+			/**
+			 * Default constructor.
+			 * @param pDevice Pointer to the ID3D10Device.
+			 * @param pEffect Pointer to an Effect.
+			 */
+			InstanceSprite(ID3D10Device *pDevice, Effect *pEffect);
+
+			/**
+			 * Default copy constructor.
+			 */
+			InstanceSprite(const InstanceSprite &sprite);
+
+			/**
+			 * Default destructor.
+			 */
+			virtual ~InstanceSprite();
+
+			/**
+			 * Default assignment operator.
+			 */
+			const InstanceSprite &operator=(const InstanceSprite &sprite);
+
+			/**
+			 * Clones the object.
+			 */
+			virtual RenderObject *clone();
+
+			/**
+			 * Updates the object.
+			 * Functionality varies depending on object type.
+			 */
+			virtual void update(float deltaTime);
+
+			/**
+			 * Creates a new instance to this object.
+			 * @return Returns a pointer to the newly created instance.
+			 */
+			virtual InstanceObject *createInstance();
+
+			/**
+			 * Creates a new instance to this object and adds it sorted based on its depth.
+			 * @param depth Depth value for the new instance.
+			 * @return Returns a pointer to the newly created instance.
+			 */
+			virtual InstanceObject *createInstanceSorted(float depth);
+
+			/**
+			 * Shapes create their own buffers so no input is required.
+			 */
+			virtual void loadBuffers();
+
+		protected:
+			/**
+			 * Updates the vertex buffer.
+			 *  Called from every update().
+			 * @return Returns true if any updates have been made.
+			 */
+			virtual bool updateVertexBufferDynamic();
+
+			/**
+			 * Updates the dynamic vertex buffer from the instance base.
+			 *  The base updates the buffer with a single call which improves
+			 *  performance significantly if many instances move each frame.
+			 *  Called from every update().
+			 * @return Returns true if any updates have been made.
+			 */
+			virtual bool updateVertexBufferDynamicFromBase();
+
+			/**
+			 * Creates the static vertex buffer.
+			 */
+			virtual void createVertexBufferStatic();
+
+			/**
+			 * Creates the dynamic vertex buffer.
+			 */
+			virtual void createVertexBufferDynamic();
+
+			/**
+			 * Creates the index buffer.
+			 */
+			virtual void createIndexBuffer();
+
+			/**
+			 * Creates the index buffer with adjacent information.
+			 */
+			virtual void createIndexBufferAdjacent();
+
+		private:
+	};
+}
+
+#endif

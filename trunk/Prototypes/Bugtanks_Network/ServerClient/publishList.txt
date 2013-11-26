@@ -1,0 +1,5 @@
+# ID		Name		ip		port
+0		Martin		localhost	98451
+1		Gnutte		localhost	98462
+2		Nicke		localhost	98473
+3		Pluto		localhost	98484

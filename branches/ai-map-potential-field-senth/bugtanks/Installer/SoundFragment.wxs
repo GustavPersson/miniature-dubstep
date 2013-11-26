@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <Fragment Id="FragmentSound">
+    <DirectoryRef Id="INSTALLDIR">
+      <Directory Id="FILESDIR" Name="Files" />
+    </DirectoryRef>
+
+    <ComponentGroup Id="MusicGroup">
+
+      <Component Id="cmpCEDF25A5D9575B906AE8D2F540DA098E" Directory="DIALOGUEDIR" Guid="{86C57EA3-DD71-4a07-B03C-E0A05590261F}">
+        <File Id="filC4B3DBCA8E80EB3A702104072DC0B8D7" KeyPath="yes" Source="..\..\Files\Dialogue\F_Welcome.wav" />
+      </Component>
+
+      <Component Id="cmp5D004718A6E58D69EFC8ABD912D31F51" Directory="MUSICDIR" Guid="{16714A78-9DB9-4226-A9B6-0A06E13A9944}">
+        <File Id="filB113C81A31D5B05A0EC726767D67515C" KeyPath="yes" Source="..\..\Files\Music\Defeat.wav" />
+      </Component>
+
+      <Component Id="cmp691C4F8B97F93671E62AB342C36A20FD" Directory="MUSICDIR" Guid="{23F7D5C9-55B7-45cb-84FA-4BEC92EDB04F}">
+        <File Id="fil24A121DD4037B7701D6C9D7BD2217731" KeyPath="yes" Source="..\..\Files\Music\For_Liberty.mp3" />
+      </Component>
+
+      <Component Id="cmp0DD2186E1EF4EFC3FA80221377B924A1" Directory="MUSICDIR" Guid="{42997E66-EA7B-448f-8B63-F71B58D322C3}">
+        <File Id="fil148EA218CDEB49D486F2B81558EC291A" KeyPath="yes" Source="..\..\Files\Music\Gameplay.wav" />
+      </Component>
+
+      <Component Id="cmpD06C6ED9A3A23F2FE9E95C7E2F8F7FFA" Directory="MUSICDIR" Guid="{4112D35E-AD7E-4aa6-8F1E-08E81927CF17}">
+        <File Id="fil34F2E8AEA906652375DEFB916E6ACB36" KeyPath="yes" Source="..\..\Files\Music\Menu.wav" />
+      </Component>
+
+      <Component Id="cmp11E5635C68FA9DB7815D09C1C0392484" Directory="MUSICDIR" Guid="{7E4202E2-31F4-4d61-8924-48B840F6C337}">
+        <File Id="fil1A74D1D14C86164B05ED18536EAC474B" KeyPath="yes" Source="..\..\Files\Music\Spacestation.wav" />
+      </Component>
+
+      <Component Id="cmp7B499EB03F63D8C3B900EE54E24C0B4C" Directory="MUSICDIR" Guid="{447D75DA-60FA-451b-B102-219AF1B01888}">
+        <File Id="filBD5A8487D86127026034AA27B818D037" KeyPath="yes" Source="..\..\Files\Music\Victory.wav" />
+      </Component>
+    </ComponentGroup>
+
+    <ComponentGroup Id="EffectsGroup">
+      <Component Id="cmpD08D0A6772E8ECB0E98F1DD3CC4212E8" Directory="SOUNDDIR" Guid="{61BB2A91-D92F-44f7-B422-B5FAC3CB52FD}">
+        <File Id="fil5465D8E8A968195C1592658FA9864695" KeyPath="yes" Source="..\..\Files\Sound\Ant_Attack_Explosion.wav" />
+      </Component>
+      <Component Id="cmp31027EF752561C7DC1D4E8BEB14D9601" Directory="SOUNDDIR" Guid="{2AA6D38F-6A15-474b-A66A-01D6D1C9A661}">
+        <File Id="fil95577C11986E2B901523D0124F45849D" KeyPath="yes" Source="..\..\Files\Sound\Ant_Attack_Melee.wav" />
+      </Component>
+      <Component Id="cmp426B8A8C09ABC38AF4F39E8840E74603" Directory="SOUNDDIR" Guid="{954D1148-EE10-4b74-964E-3B1C8BC06BED}">
+        <File Id="fil559A1FD97D294116896DF891DCA21A62" KeyPath="yes" Source="..\..\Files\Sound\Ant_Attack_Ranged.wav" />
+      </Component>
+      <Component Id="cmpB6262E3D31CB858948E7DAB2101FA66C" Directory="SOUNDDIR" Guid="{0470A11D-31B9-4732-BF6A-50F34B5ACE64}">
+        <File Id="fil7D4549A854C2351E3EB34026CF482E7B" KeyPath="yes" Source="..\..\Files\Sound\Ant_Attack_Ranged_Impact.wav" />
+      </Component>
+      <Component Id="cmp8AB704344DB749DFF07CF6D237A66779" Directory="SOUNDDIR" Guid="{F808B886-82FB-4cdf-8C76-BB7170C40D1E}">
+        <File Id="fil025A9DFD33EA5334A4DFDFA4A2D521FA" KeyPath="yes" Source="..\..\Files\Sound\Ant_Death.wav" />
+      </Component>
+      <Component Id="cmpF735E44C65BDFB16249DD6FEF920D456" Directory="SOUNDDIR" Guid="{1026D7FE-1B9E-46cb-8055-0DD24E16DF48}">
+        <File Id="filFED27B8DE0E00D42FE040AE82D2FDCE7" KeyPath="yes" Source="..\..\Files\Sound\Ant_Hit.wav" />
+      </Component>
+      <Component Id="cmpC85C6C9B38D8C7A6174BD1BC11D7D07A" Directory="SOUNDDIR" Guid="{9C4C7C38-5908-4101-9544-7D3F6FCE01ED}">
+        <File Id="fil75F1AEAA7E68457BB595402F93611626" KeyPath="yes" Source="..\..\Files\Sound\Ant_Movement.wav" />
+      </Component>
+      <Component Id="cmp7D507F76A3B3F6501E6571BB46EBBB7D" Directory="SOUNDDIR" Guid="{F67E873F-FFED-4c89-87BC-0ED50FF049E0}">
+        <File Id="fil381E6988CB26404BC328C101528AB159" KeyPath="yes" Source="..\..\Files\Sound\Ant_Spawn.wav" />
+      </Component>
+      <Component Id="cmp2F7D511B4A90027BD2BF12324B7C827F" Directory="SOUNDDIR" Guid="{136634F6-F37B-4092-B592-B9711CA67026}">
+        <File Id="fil64DC29C46233D9685A2A3607B2F64585" KeyPath="yes" Source="..\..\Files\Sound\BeamCannon_Fire.wav" />
+      </Component>
+      <Component Id="cmp260BA67A29B70D12E77532A83EB6D423" Directory="SOUNDDIR" Guid="{3C304A42-7260-4c62-AD10-4B66BC52CEEC}">
+        <File Id="fil26A8AF032901392BA44F64058558DB16" KeyPath="yes" Source="..\..\Files\Sound\BeamCannon_Impact.wav" />
+      </Component>
+      <Component Id="cmpE5D51918FCE5A7727401F882EC984ABA" Directory="SOUNDDIR" Guid="{D0E454F8-7FA6-46f6-9E52-560C392000E7}">
+        <File Id="fil6E0D44F7DD2FFA09D06A66D40A74CEF6" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Attack_Melee.wav" />
+      </Component>
+      <Component Id="cmpC236C988F5A45C3965FD67955E1FD432" Directory="SOUNDDIR" Guid="{7227C4A8-6E16-48d5-95C7-E44EB66B4083}">
+        <File Id="fil2FD74B8BD917F77809A98CCFC3F9F8A6" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Attack_Ranged.wav" />
+      </Component>
+      <Component Id="cmpB590E5DB6DB907D9C2DD6D155C80E87F" Directory="SOUNDDIR" Guid="{517A17BF-9D10-4407-A784-23B70AA89D95}">
+        <File Id="fil9A1FADDA239C460F16559AA8DA48C02C" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Attack_Ranged_Impact.wav" />
+      </Component>
+      <Component Id="cmp1E15C1FE92CCCAE78F2848256012B1D7" Directory="SOUNDDIR" Guid="{B1DBF098-3BAB-468e-84BA-6E8CA9BD06FC}">
+        <File Id="fil4831138CB1E6F048DD6066DE5DEF70E1" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Death.wav" />
+      </Component>
+      <Component Id="cmpD6B8C3E913259AA0E4FB38162155611A" Directory="SOUNDDIR" Guid="{73B44708-FFC4-4b83-8365-8051E9C48262}">
+        <File Id="fil7566AA203DE2B1568755F5121B9B7944" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Hit.wav" />
+      </Component>
+      <Component Id="cmp9FE1710D207B95651D14B658E74B7EB9" Directory="SOUNDDIR" Guid="{2AAE9234-B4E4-409d-8132-968166530C82}">
+        <File Id="filA7691A7DDDD1AA8B70E5ED4DC0C88A8C" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Movement.wav" />
+      </Component>
+      <Component Id="cmpED5C3AEF1E30683D2ADF10A956812A0E" Directory="SOUNDDIR" Guid="{C11F6E8A-CC17-4679-9F7C-425268145B05}">
+        <File Id="filFE4E56EA770220595A26FBCFD8F38B9A" KeyPath="yes" Source="..\..\Files\Sound\Beetle_Spawn.wav" />
+      </Component>
+      <Component Id="cmp9951A7E7F7D086BCA8C8B6F005640C24" Directory="SOUNDDIR" Guid="{2579F5FD-0CBA-468e-B861-9C07FF542BA9}">
+        <File Id="filA2EBA5ACE05A8F833CAF435149A3AD51" KeyPath="yes" Source="..\..\Files\Sound\Button_Pressed_Default.wav" />
+      </Component>
+      <Component Id="cmp4D27ECC6D3F0D8151AE7823E8E1EC4D6" Directory="SOUNDDIR" Guid="{9A8CE343-BC81-4a3b-8280-AD8304221233}">
+        <File Id="fil969D6589664BC9FCE2D784A9DD2FA643" KeyPath="yes" Source="..\..\Files\Sound\Button_Rollover.wav" />
+      </Component>
+      <Component Id="cmp07753461B79B7C36EB4189D73EA97804" Directory="SOUNDDIR" Guid="{BBEC314E-4A1F-4ed9-AE1F-A45C9FF1CDCE}">
+        <File Id="fil9FEACA8B25C939F989F485C3E9808E4B" KeyPath="yes" Source="..\..\Files\Sound\Cannon_Fire.wav" />
+      </Component>
+      <Component Id="cmp35F6887A042CB3392F6430F2F6AF1767" Directory="SOUNDDIR" Guid="{0FAAD8F6-D891-4f4e-9933-D16C4677275B}">
+        <File Id="fil5F2DC6B178C5E6DA82FCAD90A47AB01C" KeyPath="yes" Source="..\..\Files\Sound\Cannon_Impact.wav" />
+      </Component>
+      <Component Id="cmp85FF2FA898D69247AFBD71ABF2D6F8A7" Directory="SOUNDDIR" Guid="{647265AB-088E-48c5-80C7-73489A39682C}">
+        <File Id="fil4073856F37E3A540C16F158C27D5CED5" KeyPath="yes" Source="..\..\Files\Sound\Civilian_Death.wav" />
+      </Component>
+      <Component Id="cmpC2D0E3E9880097BB5E8A14EC2F2AE657" Directory="SOUNDDIR" Guid="{0075BD49-E1E3-4dd1-8949-109CB3A1D0EB}">
+        <File Id="fil95A02EAB5C08A4C30BEDAD70575C08AF" KeyPath="yes" Source="..\..\Files\Sound\Civilian_Enter_Tank.wav" />
+      </Component>
+      <Component Id="cmp43A94EA9E456B55F34464F04BABED7CA" Directory="SOUNDDIR" Guid="{8B56BC31-4415-447b-A0DF-DAA8EAEDD235}">
+        <File Id="filB6ED7A6442F2A2DA4F011D1884137C77" KeyPath="yes" Source="..\..\Files\Sound\Civilian_Hit.wav" />
+      </Component>
+      <Component Id="cmp0F5AF1A6219CC5FF5FB41188FAE48B84" Directory="SOUNDDIR" Guid="{CE267890-8CBF-49c4-BE0F-7D97DF621894}">
+        <File Id="fil6F8F4D8EF12F19629147E8D1BFFA3CD8" KeyPath="yes" Source="..\..\Files\Sound\Civilian_Scream_Fleeing.wav" />
+      </Component>
+      <Component Id="cmp24C59203D6F97F766AFE9606CEA7A81B" Directory="SOUNDDIR" Guid="{B78BB656-2B89-4589-8CF7-807264AAFDD9}">
+        <File Id="filD796F9CCAC5C15DF9A580BD73BCF2F62" KeyPath="yes" Source="..\..\Files\Sound\Civilian_Scream_Hijack.wav" />
+      </Component>
+      <Component Id="cmp3821DB25413656648271103BA48C3BB5" Directory="SOUNDDIR" Guid="{BC808540-922E-41a7-B75D-1E3928E90439}">
+        <File Id="fil3970258BB9BBD86A9413AAAB4766CA67" KeyPath="yes" Source="..\..\Files\Sound\Civilian_Stunned.wav" />
+      </Component>
+      <Component Id="cmp7A94EDDB72B62A65CF0951E415EEC6F1" Directory="SOUNDDIR" Guid="{A3E5F17B-56AD-4411-9C60-3B397D6728A1}">
+        <File Id="filECE371D51AF9067229B2E1150BC12775" KeyPath="yes" Source="..\..\Files\Sound\Connect.wav" />
+      </Component>
+      <Component Id="cmp095948DAAEC93F790A28C9F2F29850DC" Directory="SOUNDDIR" Guid="{255352A7-DC5F-41cf-B051-75169F4A957E}">
+        <File Id="filB4497AD18F37E64B7791AF9741D05C59" KeyPath="yes" Source="..\..\Files\Sound\Enemy_Enter_Building.wav" />
+      </Component>
+      <Component Id="cmp4281906E36F7D8D3D9E2E17C0EB75A07" Directory="SOUNDDIR" Guid="{BF050C58-02D9-4307-B5AC-DACF8EA3CCB4}">
+        <File Id="filEA6057347F4A0A12548114881FB6E21E" KeyPath="yes" Source="..\..\Files\Sound\Error.wav" />
+      </Component>
+      <Component Id="cmpE82A75FD6A50C6731C634E6F50EC9984" Directory="SOUNDDIR" Guid="{5D0ECE48-9CE7-4c55-AD68-BC4CCEEC2316}">
+        <File Id="fil23E54354740EA87FDAEA7D2019CF5AF5" KeyPath="yes" Source="..\..\Files\Sound\Explosion_Default.wav" />
+      </Component>
+      <Component Id="cmp9672D2F28DA27F3747D3C0D5302B0040" Directory="SOUNDDIR" Guid="{95ED58A9-3396-4307-A0FF-EC1E6D11D6EB}">
+        <File Id="filB5563522F31B88B382AD31C7D7DDE49D" KeyPath="yes" Source="..\..\Files\Sound\FlameThrower_End.wav" />
+      </Component>
+      <Component Id="cmpCC95E3E44340EBFCBB29BA3DD5F72D7C" Directory="SOUNDDIR" Guid="{44924864-5829-4c46-B73A-1C75782A43A1}">
+        <File Id="fil0EADADFF38F182B7CC0D1B3CE2CB9DAC" KeyPath="yes" Source="..\..\Files\Sound\FlameThrower_Fire.wav" />
+      </Component>
+      <Component Id="cmp695CB5D2AEBBBA25926F3621E97D3C78" Directory="SOUNDDIR" Guid="{63F73BE9-F6F1-4180-BB7A-3ABF5B972A4C}">
+        <File Id="filF34003FBD6D1513CB7595A773B2B52F6" KeyPath="yes" Source="..\..\Files\Sound\FlameThrower_Impact.wav" />
+      </Component>
+      <Component Id="cmp6CDED09ECF2276BB18A5BEA5284F0E2D" Directory="SOUNDDIR" Guid="{9D961C8B-1AF2-4fe1-8335-08F237CC395E}">
+        <File Id="fil2F47CAFBA139940CB9825FA17882D77D" KeyPath="yes" Source="..\..\Files\Sound\FlameThrower_Start.wav" />
+      </Component>
+      <Component Id="cmp7674E3F99C91B9AD5D0AE99079C30FC7" Directory="SOUNDDIR" Guid="{5D5B7B56-73D8-459b-A26F-F02D0AA88D3F}">
+        <File Id="fil41974DDB524FFF2DE9BABCEE1F483C24" KeyPath="yes" Source="..\..\Files\Sound\Foot_Death.wav" />
+      </Component>
+      <Component Id="cmp2742766561F36FF7B1485923F35EC348" Directory="SOUNDDIR" Guid="{0EA0A97C-9EDA-4af5-9CB4-534D751E05B9}">
+        <File Id="fil31F50F28EFC35EF5CAEC2759FB67D354" KeyPath="yes" Source="..\..\Files\Sound\Foot_EnterTank.wav" />
+      </Component>
+      <Component Id="cmp2A80469C9A48A626EDCAFE33E767D9AF" Directory="SOUNDDIR" Guid="{48BB060A-923F-4285-A463-39915059961C}">
+        <File Id="filE173CCECEFBC2B6803B030198999C560" KeyPath="yes" Source="..\..\Files\Sound\Foot_Hit.wav" />
+      </Component>
+      <Component Id="cmp8C20BA947FDBD7AB5CCB4F22BFDC3E84" Directory="SOUNDDIR" Guid="{43499A3A-1CF3-467a-B7CE-566D557FDF38}">
+        <File Id="fil248F3F9611FED4DF65F5ECD09BBB084B" KeyPath="yes" Source="..\..\Files\Sound\Foot_Movement.wav" />
+      </Component>
+      <Component Id="cmpACE8976B15A0688C9D1B045C82763ADF" Directory="SOUNDDIR" Guid="{F92DFD64-16F0-4792-837E-D69BAC79FE10}">
+        <File Id="fil2DEBB583CC2BF2989286C272DBAC427A" KeyPath="yes" Source="..\..\Files\Sound\GaussCannon_Fire.wav" />
+      </Component>
+      <Component Id="cmpC54188AC59E54433FC8E5D0A15156E2B" Directory="SOUNDDIR" Guid="{26404BFA-4B95-4fa6-BD9F-3ACC4CB8B14A}">
+        <File Id="fil37D088B852CE7C311E5A90B7CE424A91" KeyPath="yes" Source="..\..\Files\Sound\GaussCannon_Impact.wav" />
+      </Component>
+      <Component Id="cmp16F1634D4AB9C4DA1C2D082B70CED960" Directory="SOUNDDIR" Guid="{EF2FC286-91CF-4018-A081-49A163B1C394}">
+        <File Id="filD94582646CC7E63ED1C6A522BE4AA0AC" KeyPath="yes" Source="..\..\Files\Sound\GaussCannon_Start.wav" />
+      </Component>
+      <Component Id="cmp8E99643D4BF95EEAEB5AB8C8EB794CDD" Directory="SOUNDDIR" Guid="{604A2300-E838-49ee-A855-59EAF818BDF9}">
+        <File Id="fil3BF14E2F2AA82866C40D19976EB5FDFB" KeyPath="yes" Source="..\..\Files\Sound\Minigun_End.wav" />
+      </Component>
+      <Component Id="cmpE60D7C96B2A7885C81F077338DA04616" Directory="SOUNDDIR" Guid="{213F51E8-F2B9-40ab-85EC-3D86CABC84E4}">
+        <File Id="filD2D22E56464709B4BAF34937C6EBDADB" KeyPath="yes" Source="..\..\Files\Sound\Minigun_Fire.wav" />
+      </Component>
+      <Component Id="cmpBFE9C314B0B7A3EB01B3B4B1C904C3BE" Directory="SOUNDDIR" Guid="{2A0C9BC8-B020-4830-8260-F30A57699932}">
+        <File Id="fil29D5BB0B769B1C3B60F7EBA26260EF66" KeyPath="yes" Source="..\..\Files\Sound\Minigun_Impact.wav" />
+      </Component>
+      <Component Id="cmpADE94B48178AB0B400EC49DE86C576F1" Directory="SOUNDDIR" Guid="{21EB5FD2-7E35-4300-AE89-3B59A46D66DA}">
+        <File Id="fil788F65F920435428BEE313A7338E17EB" KeyPath="yes" Source="..\..\Files\Sound\Minigun_Start.wav" />
+      </Component>
+      <Component Id="cmp17EC7238C42B6A31F746E757F5936642" Directory="SOUNDDIR" Guid="{770B0925-5EE6-4dbd-B6A0-6E7355411ED0}">
+        <File Id="fil4A02AE9A2398EBCC4F7817C99ED42ECC" KeyPath="yes" Source="..\..\Files\Sound\PedestrianGun_Fire.wav" />
+      </Component>
+      <Component Id="cmp04A68E9B85477FB2AE4E1C64362A95C5" Directory="SOUNDDIR" Guid="{2C1BFF14-6E82-40fb-B45E-549A9D692F95}">
+        <File Id="fil9870BBF250AAAD3B8EE385453D864820" KeyPath="yes" Source="..\..\Files\Sound\PedestrianGun_Impact.wav" />
+      </Component>
+      <Component Id="cmp7803C07191A039B16FC703076D538150" Directory="SOUNDDIR" Guid="{55DCA04F-594E-4403-BD08-72A41BB650BD}">
+        <File Id="fil0AE2374D65DB3D1E1117DFA2597EF879" KeyPath="yes" Source="..\..\Files\Sound\Pedestrian_Movement.wav" />
+      </Component>
+      <Component Id="cmp3E60E38BDCD970D03F32D9B14A0518A7" Directory="SOUNDDIR" Guid="{550F54B3-D1C1-44e1-9C89-98E189E1EF04}">
+        <File Id="fil066BF53231C87420019A9A982DEB0E26" KeyPath="yes" Source="..\..\Files\Sound\PulseCannon_End.wav" />
+      </Component>
+      <Component Id="cmpC015A721B96DBE461CB1179F4E2A5443" Directory="SOUNDDIR" Guid="{B1826C1C-971B-490d-8A67-860D06263972}">
+        <File Id="fil20D45A8F0355DBD453CBB84E1C71117B" KeyPath="yes" Source="..\..\Files\Sound\PulseCannon_Fire.wav" />
+      </Component>
+      <Component Id="cmpF3DAF742B9323C038876EDC0A2EADB3C" Directory="SOUNDDIR" Guid="{C3CBA845-CF04-4841-AE2E-D0F53755EE45}">
+        <File Id="fil4018EA42DB057F1EC91465D30F6F2DB0" KeyPath="yes" Source="..\..\Files\Sound\PulseCannon_Impact.wav" />
+      </Component>
+      <Component Id="cmp79C3C77E2D15C9CD97AD5E27EF8EC8AA" Directory="SOUNDDIR" Guid="{0E1AA35D-CEA3-413f-AFFA-CF72B972CF9B}">
+        <File Id="fil760C59F2C75AE242D049FCE699A429DB" KeyPath="yes" Source="..\..\Files\Sound\PulseCannon_Start.wav" />
+      </Component>
+      <Component Id="cmpA9E664718059E009643385D98BAFAC6B" Directory="SOUNDDIR" Guid="{BF931639-5DEF-49fd-9F47-524B8147F4EF}">
+        <File Id="filED3E5D78B655AD2688AF4ADCCFD9C3C4" KeyPath="yes" Source="..\..\Files\Sound\Shotgun_Fire.wav" />
+      </Component>
+      <Component Id="cmpF397B1E6317C1C68301599259FDDC1ED" Directory="SOUNDDIR" Guid="{C1D99D27-0CA7-485f-B0FB-48B10A6F1C4B}">
+        <File Id="fil121FE5453A4687D707387C5CE8CE347C" KeyPath="yes" Source="..\..\Files\Sound\Shotgun_Impact.wav" />
+      </Component>
+      <Component Id="cmp7AF4E74854F742B34577B4DC76CA676B" Directory="SOUNDDIR" Guid="{C3B6CA50-5130-4b92-A8D6-CB3FB9105CB8}">
+        <File Id="fil9316AFC70A85724D8F1238C800AC9D5C" KeyPath="yes" Source="..\..\Files\Sound\Spider_Attack_Melee.wav" />
+      </Component>
+      <Component Id="cmp8C15E57D610D5F8A4133F3CC0462420D" Directory="SOUNDDIR" Guid="{14D6FB88-675A-4894-A1CA-0D2552895372}">
+        <File Id="fil424D8EB7FBFAA99A567D7D983C3CC76D" KeyPath="yes" Source="..\..\Files\Sound\Spider_Attack_Ranged.wav" />
+      </Component>
+      <Component Id="cmp328688E7F43DFA2005FF48F0DF528A4C" Directory="SOUNDDIR" Guid="{D21CB277-9434-462a-B4B7-F89CA32D0954}">
+        <File Id="fil8A9EBFC3C1DE1AAF281F48B5004236F1" KeyPath="yes" Source="..\..\Files\Sound\Spider_Attack_Ranged_Impact.wav" />
+      </Component>
+      <Component Id="cmpD62DB9F4A1CBA79F52FA3A5AFB5EB9C3" Directory="SOUNDDIR" Guid="{45D6589B-962C-4c8e-B833-080135C38012}">
+        <File Id="fil95A3F7EDE6A3D37F91B3DA67959277AC" KeyPath="yes" Source="..\..\Files\Sound\Spider_Death.wav" />
+      </Component>
+      <Component Id="cmp0BA528FBEF7A96BEB86D928D01032D3D" Directory="SOUNDDIR" Guid="{BC6DEB18-095F-477c-B1E5-C3B9B404C8A9}">
+        <File Id="fil8785DA92EE96A72F95944780C4BFE402" KeyPath="yes" Source="..\..\Files\Sound\Spider_Hit.wav" />
+      </Component>
+      <Component Id="cmpF268C47090F5B394ED8A403E51F01A52" Directory="SOUNDDIR" Guid="{0AE40778-1287-4f70-9D02-8B22E97B8583}">
+        <File Id="fil36A829AD4FA19958660F2ABBF1DB65CC" KeyPath="yes" Source="..\..\Files\Sound\Spider_Jump_Attack.wav" />
+      </Component>
+      <Component Id="cmp83EE0DD6F6330200CBF4FB0721A02CE9" Directory="SOUNDDIR" Guid="{74190F36-D478-4ea5-8980-4C71E9C43318}">
+        <File Id="fil4F0113C79D152AA75C9CBE0670DCA122" KeyPath="yes" Source="..\..\Files\Sound\Spider_Movement.wav" />
+      </Component>
+      <Component Id="cmp3A8146ECD134726CFD1F3F2F24B2242F" Directory="SOUNDDIR" Guid="{793D1CAF-9A5A-4c90-A177-E87D8CC6ED75}">
+        <File Id="filE21755D247C6149F7DFD3881150F0A42" KeyPath="yes" Source="..\..\Files\Sound\Spider_Spawn.wav" />
+      </Component>
+      <Component Id="cmp3161073CAA4269C1BCC3D3717E3F9115" Directory="SOUNDDIR" Guid="{533E1A58-F65F-4484-A0DC-C431E36EE922}">
+        <File Id="filEAED6D8CD782FB00BE3834E43AB19BC4" KeyPath="yes" Source="..\..\Files\Sound\Tank_CC_Movement_Moving.wav" />
+      </Component>
+      <Component Id="cmp94F93F36DCB37ABC397F30113D009132" Directory="SOUNDDIR" Guid="{ED5D9D47-139F-42ac-AEE6-611DB89BA710}">
+        <File Id="filB54AF6710B2201B3508C44F546042497" KeyPath="yes" Source="..\..\Files\Sound\Tank_CC_Movement_Rotation.wav" />
+      </Component>
+      <Component Id="cmp1844E056080CFC1E5653961614E83925" Directory="SOUNDDIR" Guid="{58A53EEC-3615-4d15-B106-F6282A14A12B}">
+        <File Id="filCECED143CD9F58CC6D3C63E7E8AC840C" KeyPath="yes" Source="..\..\Files\Sound\Tank_CC_Movement_Stop.wav" />
+      </Component>
+      <Component Id="cmpB5DB0ED0B0ECF5CB080876A27E9A323A" Directory="SOUNDDIR" Guid="{A4C52C6E-AA64-43ea-B14A-561335EF4C60}">
+        <File Id="fil50B311DF34A4C9D7B05B3324DB0ACA9E" KeyPath="yes" Source="..\..\Files\Sound\Tank_Collision_House_1.wav" />
+      </Component>
+      <Component Id="cmpF06616F39CE9BB1C4D1266157626426A" Directory="SOUNDDIR" Guid="{D8211D63-7CFD-41f8-B596-6265507B280E}">
+        <File Id="fil38EBC79E597DE80E7F8D7BF3DFB0D43D" KeyPath="yes" Source="..\..\Files\Sound\Tank_Collision_House_2.wav" />
+      </Component>
+      <Component Id="cmpE9FCF49DD03C58274A70384878816A61" Directory="SOUNDDIR" Guid="{D586CD13-6116-4d4e-B488-FF87411B1F30}">
+        <File Id="fil9A05A05A3BE99160348EFA896F7EA416" KeyPath="yes" Source="..\..\Files\Sound\Tank_Collision_LargeEnemy.wav" />
+      </Component>
+      <Component Id="cmpFF90EA2ECD27584AC508B3E8729AC202" Directory="SOUNDDIR" Guid="{4EDCAB13-5F39-4f82-8E0D-608B91A3EC71}">
+        <File Id="filC3CC81B32EBAB37EF9F2C2DA8F70C8F8" KeyPath="yes" Source="..\..\Files\Sound\Tank_Collision_Tank.wav" />
+      </Component>
+      <Component Id="cmpB32823C0D39A63CEF100EC5840DA411D" Directory="SOUNDDIR" Guid="{E87F51B6-5340-4bf7-B50E-4BDB261C4CFC}">
+        <File Id="fil9BD7601ECBC3B72CB7115CC2E2C47344" KeyPath="yes" Source="..\..\Files\Sound\Tank_Death.wav" />
+      </Component>
+      <Component Id="cmp559860EB032D12DEE30D14B0EB47C372" Directory="SOUNDDIR" Guid="{E0376595-79E1-4fe1-84CF-21653ADE3BA1}">
+        <File Id="fil53BBD4154D0DAD339067DFA082394233" KeyPath="yes" Source="..\..\Files\Sound\Tank_Eject.wav" />
+      </Component>
+      <Component Id="cmpCD137F232148ED8A2D13FC2522E2C8D9" Directory="SOUNDDIR" Guid="{299C0AC3-DC00-41df-AF3A-DF3300EF89FC}">
+        <File Id="fil86F46AA3F3E57A2B25412CE6E35AA5CF" KeyPath="yes" Source="..\..\Files\Sound\Tank_Hit_Melee.wav" />
+      </Component>
+      <Component Id="cmp6ADBC9A36C25A286777DCF1D18EE73E7" Directory="SOUNDDIR" Guid="{EA8FE745-4C34-4370-9A79-1A08083A03F4}">
+        <File Id="fil9728B0D79F12051D18C93A487229F127" KeyPath="yes" Source="..\..\Files\Sound\Tank_Hit_Ranged_Acid.wav" />
+      </Component>
+      <Component Id="cmpA977B3ACB7D55C8176CBE9E3DBB7A6C4" Directory="SOUNDDIR" Guid="{36763273-3277-4cb4-8B93-17ADE6A83E22}">
+        <File Id="fil151321FD74EF404169759EF6AB911608" KeyPath="yes" Source="..\..\Files\Sound\Tank_Hit_Ranged_Fire.wav" />
+      </Component>
+      <Component Id="cmpF63D222AA4AF928F33445DAF52581067" Directory="SOUNDDIR" Guid="{38A21F51-E5E8-4ff8-AAE5-1BFD1C31D908}">
+        <File Id="filFEBF346341DAC996BAD296A5B60A7218" KeyPath="yes" Source="..\..\Files\Sound\Tank_Hit_Ranged_Plasma.wav" />
+      </Component>
+      <Component Id="cmpAF09627FDBE7C3BC0F8BE4BD95975891" Directory="SOUNDDIR" Guid="{16858A16-0960-4485-8369-653B502DE9EB}">
+        <File Id="filEB9EFC09583C29F4ADD7D123D624682C" KeyPath="yes" Source="..\..\Files\Sound\Tank_LR_Movement_Moving.wav" />
+      </Component>
+      <Component Id="cmp01D6E7475A3CE308778E7E1309267972" Directory="SOUNDDIR" Guid="{0124618D-2761-4118-82B5-80761C2ADC01}">
+        <File Id="filD90AA08A2720E42633CCAB636752655A" KeyPath="yes" Source="..\..\Files\Sound\Tank_LR_Movement_Rotation.wav" />
+      </Component>
+      <Component Id="cmp326FA06AD7098393BAF3E50C60F108B7" Directory="SOUNDDIR" Guid="{C8FA2A20-77EC-4c8d-A046-890558D84C00}">
+        <File Id="filFF5E6460181A560F6823C5E2C39BE63B" KeyPath="yes" Source="..\..\Files\Sound\Tank_LR_Movement_Stop.wav" />
+      </Component>
+      <Component Id="cmp71BE366E5C91A2EC4A86AD19D3D29707" Directory="SOUNDDIR" Guid="{B870526D-CD1E-4132-BA70-B3745F6F1955}">
+        <File Id="fil23D8C89CE0D25B83B41BD52A5550FE04" KeyPath="yes" Source="..\..\Files\Sound\Tank_TurretRotation.wav" />
+      </Component>
+      
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="MUSICDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="DIALOGUEDIR" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="SOUNDDIR" />
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="FILESDIR">
+      <Directory Id="DIALOGUEDIR" Name="Dialogue" />
+    </DirectoryRef>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="FILESDIR">
+      <Directory Id="SOUNDDIR" Name="Sound" />
+    </DirectoryRef>
+  </Fragment>
+
+  <Fragment>
+    <DirectoryRef Id="FILESDIR">
+      <Directory Id="MUSICDIR" Name="Music" />
+    </DirectoryRef>
+  </Fragment>
+
+</Wix>

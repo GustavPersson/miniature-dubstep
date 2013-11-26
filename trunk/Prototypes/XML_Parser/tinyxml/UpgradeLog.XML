@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="tinyxml">
+</Property><Property Name="Solution File" Value="C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyxml.sln">
+</Property><Property Name="User Options File" Value="C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyxml.suo">
+</Property><Property Name="Date" Value="den 1 februari 2010">
+</Property><Property Name="Time" Value="14:55">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="tinyxml.sln" Description="File successfully backed up as C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyxml.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="tinyxml.suo" Description="File successfully backed up as C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyxml.suo.old">
+</Event><Event ErrorLevel="0" Project="tinyXmlTest" Source="tinyXmlTest.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="tinyXmlTest" Source="tinyXmlTest.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="tinyXmlTest" Source="tinyXmlTest.vcproj" Description="Project file successfully backed up as 'C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyXmlTest.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="tinyXmlTest" Source="tinyXmlTest.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="tinyXmlTest" Source="tinyXmlTest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="tinyXmlTestSTL" Source="tinyXmlTestSTL.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="tinyXmlTestSTL" Source="tinyXmlTestSTL.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="tinyXmlTestSTL" Source="tinyXmlTestSTL.vcproj" Description="Project file successfully backed up as 'C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyXmlTestSTL.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="tinyXmlTestSTL" Source="tinyXmlTestSTL.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="tinyXmlTestSTL" Source="tinyXmlTestSTL.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="tinyxml_lib" Source="tinyxml_lib.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="tinyxml_lib" Source="tinyxml_lib.vcproj" Description="Project file successfully backed up as 'C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyxml_lib.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="tinyxml_lib" Source="tinyxml_lib.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="tinyxml_lib" Source="tinyxml_lib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="tinyxmlSTL" Source="tinyxmlSTL.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="tinyxmlSTL" Source="tinyxmlSTL.vcproj" Description="Project file successfully backed up as 'C:\Jonis\Dev\BugTanks\trunk\Prototypes\XML_Parser\tinyxml\tinyxmlSTL.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="tinyxmlSTL" Source="tinyxmlSTL.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="tinyxmlSTL" Source="tinyxmlSTL.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="tinyxml.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="tinyxml.sln" Description="Converted">
+</Event></UpgradeLog>

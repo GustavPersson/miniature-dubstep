@@ -1,0 +1,5 @@
+Total Score: 0 
+Total Shots Fired: 0.000000 
+ Total Hits: 0.000000 
+ Total Misses: 0.000000 
+ Accuracy: -1.#IND00

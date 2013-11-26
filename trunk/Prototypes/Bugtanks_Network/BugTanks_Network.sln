@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "GameServer\GameServer.vcproj", "{59E16CB6-26ED-4219-8FB6-0C2C576A440E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Network", "Sockets\Sockets.vcproj", "{38ADAEAE-68EF-4683-AD61-6B69E98F1101}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerClient", "ServerClient\ServerClient.vcproj", "{1BCD59A2-CD6E-400D-A8CC-B323652F95CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59E16CB6-26ED-4219-8FB6-0C2C576A440E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59E16CB6-26ED-4219-8FB6-0C2C576A440E}.Debug|Win32.Build.0 = Debug|Win32
+		{59E16CB6-26ED-4219-8FB6-0C2C576A440E}.Release|Win32.ActiveCfg = Release|Win32
+		{59E16CB6-26ED-4219-8FB6-0C2C576A440E}.Release|Win32.Build.0 = Release|Win32
+		{38ADAEAE-68EF-4683-AD61-6B69E98F1101}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38ADAEAE-68EF-4683-AD61-6B69E98F1101}.Debug|Win32.Build.0 = Debug|Win32
+		{38ADAEAE-68EF-4683-AD61-6B69E98F1101}.Release|Win32.ActiveCfg = Release|Win32
+		{38ADAEAE-68EF-4683-AD61-6B69E98F1101}.Release|Win32.Build.0 = Release|Win32
+		{1BCD59A2-CD6E-400D-A8CC-B323652F95CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BCD59A2-CD6E-400D-A8CC-B323652F95CE}.Debug|Win32.Build.0 = Debug|Win32
+		{1BCD59A2-CD6E-400D-A8CC-B323652F95CE}.Release|Win32.ActiveCfg = Release|Win32
+		{1BCD59A2-CD6E-400D-A8CC-B323652F95CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

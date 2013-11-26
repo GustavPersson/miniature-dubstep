@@ -1,0 +1,43 @@
+NumberOfJoints: 6
+JointID: 0
+JointName: Bobble
+Translation: -2.5652 0.0387363 3.14147e-016
+Scale: 1 1 1
+Rotation: 0 0 0 1
+Orientation: -0.697489 0.716595 4.27089e-017 4.38788e-017
+
+JointID: 1
+JointName: joint2
+Translation: -0.0565767 -2.60424 -3.19003e-016
+Scale: 1 1 1
+Rotation: 0 0 0 1
+Orientation: 0 0 0.714745 0.699386
+
+JointID: 2
+JointName: joint3
+Translation: 1.28179 2.40975 -1.36557e-017
+Scale: 1 1 1
+Rotation: 0 0 0 1
+Orientation: 0 0 -0.541536 0.840677
+
+JointID: 3
+JointName: joint5
+Translation: 0.867936 2.60381 -1.15373e-016
+Scale: 1 1 1
+Rotation: 0 0 0 1
+Orientation: -0.564768 0.82525 3.45821e-017 5.0532e-017
+
+JointID: 4
+JointName: joint4
+Translation: -0.798103 -2.35157 3.88259e-016
+Scale: 1 1 1
+Rotation: 0 0 0 1
+Orientation: -0.52089 0.853624 3.18953e-017 5.22694e-017
+
+JointID: 5
+JointName: joint6
+Translation: -0.886368 -2.28193 1.26598e-016
+Scale: 1 1 1
+Rotation: 0 0 0 1
+Orientation: -0.564768 0.82525 3.45821e-017 5.0532e-017
+

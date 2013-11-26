@@ -1,0 +1,14 @@
+
+We're using TCP and are trying to sen 36000 messages per minute. We have two clients each sending 36000 messages
+and receiving. These are the test result data:
+
+On localhost:
+nMessages=36000  -  time=0.365s
+nMessages=360000 -  time=2.738s
+nMessages=3600000 - time=26.009s
+
+
+from a computer in hamnen to a computer on TBV
+nMessages=36000	 -  time=0.53s
+nMessages=360000 -  time=4.84s
+
