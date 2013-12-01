@@ -1,0 +1,10 @@
+
+/obj
+/bin
+/test
+.svn/
+*.opensdf
+trunk/boost_1_41_0
+trunk/boost_1_55_0
+trunk/bugtanks/*/debug/
+trunk/bugtanks/debug/
