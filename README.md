@@ -11,3 +11,8 @@ miniature-dubstep
  * General Public License for more details at
  * http://www.gnu.org/copyleft/gpl.html
  */
+
+
+Packa upp boost, pthread och FMOD från miniature-dubstep-files i trunken för att få länkningar att funka.
+
+Shaders kompilerar inte.
