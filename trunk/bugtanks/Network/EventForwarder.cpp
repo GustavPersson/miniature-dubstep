@@ -25,6 +25,8 @@
 #include "Peer.h"
 #include "Protocol.h"
 
+#pragma warning(disable: 4244)
+
 using namespace network;
 
 bool EventForwarder::handleEvent(const logic::EventData &eventData)

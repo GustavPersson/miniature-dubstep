@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>GFX</ProjectName>
+    <ProjectGuid>{2086E386-8DA1-4E54-B92B-C460D06DC410}</ProjectGuid>
+    <RootNamespace>GFX2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>E:\Programmering\BugTanks\miniature-dubstep\trunk\Shaders;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../pthreads/include;../../boost_1_55_0;../../FMOD/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DX10Module.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="DXBase.h" />
+    <ClInclude Include="RenderableTex.h" />
+    <ClInclude Include="RenderHandler.h" />
+    <ClInclude Include="BufferObject.h" />
+    <ClInclude Include="InstanceAnimationMesh.h" />
+    <ClInclude Include="InstanceAnimationSubset.h" />
+    <ClInclude Include="InstanceMesh.h" />
+    <ClInclude Include="InstanceObject.h" />
+    <ClInclude Include="InstanceSubset.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="RenderObject.h" />
+    <ClInclude Include="ScreenQuad.h" />
+    <ClInclude Include="Subset.h" />
+    <ClInclude Include="TransformObject.h" />
+    <ClInclude Include="InstanceShapeCube.h" />
+    <ClInclude Include="InstanceShapePlane.h" />
+    <ClInclude Include="InstanceShapeTriangle.h" />
+    <ClInclude Include="InstanceSprite.h" />
+    <ClInclude Include="ShapeCube.h" />
+    <ClInclude Include="Shapes.h" />
+    <ClInclude Include="ShapeTriangle.h" />
+    <ClInclude Include="GUIAnimatedImage.h" />
+    <ClInclude Include="GUIComboFrame.h" />
+    <ClInclude Include="GUIFrame.h" />
+    <ClInclude Include="GUIHandler.h" />
+    <ClInclude Include="GUIImage.h" />
+    <ClInclude Include="GUIText.h" />
+    <ClInclude Include="GUIFrameTest.h" />
+    <ClInclude Include="GUIHandlerTest.h" />
+    <ClInclude Include="GUISubFrameTest.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightHandler.h" />
+    <ClInclude Include="MeshLoader.h" />
+    <ClInclude Include="WindowData.h" />
+    <ClInclude Include="WindowHandler.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureHandler.h" />
+    <ClInclude Include="ObjectHandler.h" />
+    <ClInclude Include="InputLayout.h" />
+    <ClInclude Include="InputLayoutHandler.h" />
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="CollisionObject.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="OBB.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="MapLoader.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleEphemeral.h" />
+    <ClInclude Include="ParticleHandler.h" />
+    <ClInclude Include="ParticlePersistent.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DayNightHandler.h" />
+    <ClInclude Include="WorldPlane.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationHandler.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="Joint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX10Module.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="DXBase.cpp" />
+    <ClCompile Include="RenderableTex.cpp" />
+    <ClCompile Include="RenderHandler.cpp" />
+    <ClCompile Include="BufferObject.cpp" />
+    <ClCompile Include="InstanceAnimationMesh.cpp" />
+    <ClCompile Include="InstanceAnimationSubset.cpp" />
+    <ClCompile Include="InstanceMesh.cpp" />
+    <ClCompile Include="InstanceObject.cpp" />
+    <ClCompile Include="InstanceSubset.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="RenderObject.cpp" />
+    <ClCompile Include="ScreenQuad.cpp" />
+    <ClCompile Include="Subset.cpp" />
+    <ClCompile Include="TransformObject.cpp" />
+    <ClCompile Include="InstanceShapeCube.cpp" />
+    <ClCompile Include="InstanceShapePlane.cpp" />
+    <ClCompile Include="InstanceShapeTriangle.cpp" />
+    <ClCompile Include="InstanceSprite.cpp" />
+    <ClCompile Include="ShapeCube.cpp" />
+    <ClCompile Include="ShapeTriangle.cpp" />
+    <ClCompile Include="GUIAnimatedImage.cpp" />
+    <ClCompile Include="GUIComboFrame.cpp" />
+    <ClCompile Include="GUIFrame.cpp" />
+    <ClCompile Include="GUIHandler.cpp" />
+    <ClCompile Include="GUIImage.cpp" />
+    <ClCompile Include="GUIText.cpp" />
+    <ClCompile Include="GUIFrameTest.cpp" />
+    <ClCompile Include="GUIHandlerTest.cpp" />
+    <ClCompile Include="GUISubFrameTest.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightHandler.cpp" />
+    <ClCompile Include="MeshLoader.cpp" />
+    <ClCompile Include="WindowHandler.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureHandler.cpp" />
+    <ClCompile Include="ObjectHandler.cpp" />
+    <ClCompile Include="InputLayout.cpp" />
+    <ClCompile Include="InputLayoutHandler.cpp" />
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="CollisionObject.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="OBB.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="MapLoader.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleEphemeral.cpp" />
+    <ClCompile Include="ParticleHandler.cpp" />
+    <ClCompile Include="ParticlePersistent.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DayNightHandler.cpp" />
+    <ClCompile Include="WorldPlane.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationHandler.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Joint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shaders\BasicAnimation.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicCel.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicColor.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicGUI.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicQuad.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicTexture.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShader.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderAnimation.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderCel.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderGUI.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderMultiTex.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderParticle.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderShadow.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleBeam.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleBigExplosion.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleFlames.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleGunSparks.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticlePulse.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleSmallExplosion.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleStructs.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleTankExplosion.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\Shader.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ShaderBuffers.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ShaderFunctions.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ShaderStates.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <FileType>Document</FileType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

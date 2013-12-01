@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="PotentialUnits">
+      <UniqueIdentifier>{644fa8ea-e0d5-4ef8-9645-77420cfc9639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PotentialUnits\AI-Units">
+      <UniqueIdentifier>{c08ba185-1904-4fff-b9be-f605dcd4623a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PotentialUnits\Foes">
+      <UniqueIdentifier>{c357f502-52c7-45aa-9759-8b7835b9bd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PotentialUnits\StaticUnits">
+      <UniqueIdentifier>{12e6d3e1-5f9c-43e3-9b24-d8b01e74836f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AiConstants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AiEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AiFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AiListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicUnit.cpp">
+      <Filter>PotentialUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="PotentialUnit.cpp">
+      <Filter>PotentialUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentAi.cpp">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClCompile>
+    <ClCompile Include="JumperAi.cpp">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedAi.cpp">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>PotentialUnits\Foes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>PotentialUnits\Foes</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>PotentialUnits\StaticUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="JumperInvalidField.cpp">
+      <Filter>PotentialUnits\StaticUnits</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AiConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AiEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AiFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AiListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicUnit.h">
+      <Filter>PotentialUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="PotentialUnit.h">
+      <Filter>PotentialUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="PotentialUnits.h">
+      <Filter>PotentialUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentAi.h">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClInclude>
+    <ClInclude Include="AiBehaviors.h">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClInclude>
+    <ClInclude Include="JumperAi.h">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAi.h">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedAi.h">
+      <Filter>PotentialUnits\AI-Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>PotentialUnits\Foes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>PotentialUnits\Foes</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>PotentialUnits\StaticUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="JumperInvalidField.h">
+      <Filter>PotentialUnits\StaticUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticUnit.h">
+      <Filter>PotentialUnits\StaticUnits</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -891,14 +891,17 @@ void Application::resetGame()
 	//Handle game logic events.
 	mpEventManager->tick(static_cast<unsigned long>(logic::EventManager::KINFINITE));
 
+#ifdef USE_EDITOR
 	//Reset editor.
 	mpEditor->deactivate();
-
+#endif
 	//Remove logic objects.
 	mpDxModule->lock(0);
 
 	mpActorHandler->removeActorsGlobal();
+#ifdef USE_EDITOR
 	mpEditor->updateGFX(0.0f);
+#endif
 	mpTriggerHandler->updateGFX();
 
 	mpDxModule->unlock(0);

@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DX10Module">
+      <UniqueIdentifier>{2f38d3c1-3a71-49d6-9557-187ed7f68cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX10Module\Header Files">
+      <UniqueIdentifier>{2ec07a21-4f31-439a-ba71-391210435219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX10Module\Source Files">
+      <UniqueIdentifier>{2de9346d-7556-4a1e-acb2-39aa3b47e3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{e5beb616-67b8-42e9-acbc-c5e737682410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex\Header Files">
+      <UniqueIdentifier>{21579f70-ed02-4476-9713-7de0637203fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex\Source Files">
+      <UniqueIdentifier>{02b9b3b9-fb15-4083-90de-69911e7c46aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXBase">
+      <UniqueIdentifier>{24096fcb-833d-43bd-b97d-303462fb807e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXBase\Header Files">
+      <UniqueIdentifier>{d6e3ba18-d65a-4c69-83df-a904151ecd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXBase\Source Files">
+      <UniqueIdentifier>{b1944c68-7e0f-4570-aeb1-2c1de8f232a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderHandler">
+      <UniqueIdentifier>{b4e3d9ea-30c0-4616-af03-d18b8cb90c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderHandler\Header Files">
+      <UniqueIdentifier>{cd4452cd-4e66-4e99-82fb-caa663d1bc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderHandler\Source Files">
+      <UniqueIdentifier>{058d874a-b66c-4ac1-ad44-7bb6983cc19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Rendering">
+      <UniqueIdentifier>{91323b0d-61fb-4e15-9a92-cd4d6c1af08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Rendering\Header Files">
+      <UniqueIdentifier>{85f8457c-9ae6-497b-8965-1339c8906a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Rendering\Source Files">
+      <UniqueIdentifier>{0145c99c-48d6-4aef-92b8-73bfbfe0e258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Rendering\BasicShapes">
+      <UniqueIdentifier>{e7dfa1b6-787f-4d6f-8460-8d92f013b60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Rendering\BasicShapes\Header Files">
+      <UniqueIdentifier>{5838436b-912b-42c1-8488-3030562696c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Object Rendering\BasicShapes\Source Files">
+      <UniqueIdentifier>{55701d78-cecd-4490-931a-53ed3b5dca4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{c8a939f8-85a1-4f03-80eb-20ba3c4d06d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Header Files">
+      <UniqueIdentifier>{b171d5a0-814d-47a0-a276-1ca4512811a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Source Files">
+      <UniqueIdentifier>{1c1f6edf-1aba-4445-abfb-e54168483747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\GUIComponents">
+      <UniqueIdentifier>{7ecaf06b-b798-46f2-9d7a-7f06d296a625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\GUIComponents\Header Files">
+      <UniqueIdentifier>{25dc8460-fc0a-44ad-872a-eee6a273adb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\GUIComponents\Source Files">
+      <UniqueIdentifier>{364bd6a8-b5b4-4058-bfb4-43e49d9ec348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting">
+      <UniqueIdentifier>{358b710b-f585-4689-b3f4-bc15f6e82bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting\Header Files">
+      <UniqueIdentifier>{de9c75c1-8ba1-4b51-a862-fce4e58a3bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting\Source Files">
+      <UniqueIdentifier>{3524d55a-abaf-40a0-b612-095f98d3b0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshLoader">
+      <UniqueIdentifier>{023d5c4c-f035-4cae-b6d7-15d830bb3e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshLoader\Header Files">
+      <UniqueIdentifier>{7e143be9-8223-4c67-9a39-056a5b42b467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshLoader\Source Files">
+      <UniqueIdentifier>{0f85f3a3-534d-4a7d-8c6d-f85d9ad36878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{b28f4b59-3a3b-4282-a724-a7e4df913314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\Header Files">
+      <UniqueIdentifier>{fa27e253-6cde-457c-9229-3f20c7612fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window\Source Files">
+      <UniqueIdentifier>{025e0c42-ff4b-46dc-8857-1e1ce9b54d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureHandler">
+      <UniqueIdentifier>{0e3e80ac-4e65-4ea0-bf3b-164407eda028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureHandler\Header Files">
+      <UniqueIdentifier>{41011aa2-41dd-4479-8d9c-1e8847c40dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureHandler\Source Files">
+      <UniqueIdentifier>{b2ce37ea-956e-43e6-839f-127f25ff5552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHandler">
+      <UniqueIdentifier>{926c26c5-72f1-4f45-88df-8d5cffd921e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHandler\Header Files">
+      <UniqueIdentifier>{ccd5e50c-32f6-46a6-a53a-df365a413175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectHandler\Source Files">
+      <UniqueIdentifier>{753cb8a0-ccc2-46e9-b7bf-6e7620013b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputLayoutHandler">
+      <UniqueIdentifier>{fd975049-f0b5-4762-98d3-59c139934d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputLayoutHandler\Header Files">
+      <UniqueIdentifier>{ec5cd236-0b70-4f64-b57d-38b806630c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputLayoutHandler\Source Files">
+      <UniqueIdentifier>{04091a1d-59a6-4bcb-8b9c-da8699d16d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{ea08f8af-87b0-4aa3-bf7c-9d065939c5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Header Files">
+      <UniqueIdentifier>{de1e2b57-f6c4-463c-99f6-722cdb4c630b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Source Files">
+      <UniqueIdentifier>{34a7bc58-bda8-45f3-b426-83d438708b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapLoader">
+      <UniqueIdentifier>{be9cdac5-3445-460c-967c-0cd5d1770e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapLoader\Header Files">
+      <UniqueIdentifier>{fb2d7741-cf9b-4b9e-bd2b-99618631a513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapLoader\Source Files">
+      <UniqueIdentifier>{a4d8b407-e2d8-47c4-9712-7351e7f761f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle Rendering">
+      <UniqueIdentifier>{4f967b34-7e22-47d3-991c-67c523a0cead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle Rendering\Source Files">
+      <UniqueIdentifier>{1155a9dc-52a4-4266-a950-6d2e210cd01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle Rendering\Header Files">
+      <UniqueIdentifier>{49fa7167-ce2e-4905-8a20-789d5817a40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{73ed3bc5-5dd1-4031-83e1-c3b654351b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\Header Files">
+      <UniqueIdentifier>{5cff6bfd-51e7-4849-9bcf-51213ab20070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\SourceFiles">
+      <UniqueIdentifier>{fc86cb1b-6469-497f-9718-82592c0d2173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DayNightHandler">
+      <UniqueIdentifier>{1aa43f12-73dc-4060-b6eb-e101f39da2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DayNightHandler\Header Files">
+      <UniqueIdentifier>{9b6b8bfa-443d-40c0-a0c9-b7738de83c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DayNightHandler\Source Files">
+      <UniqueIdentifier>{2b100fd6-6b62-4c35-832c-292f794becbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldPlane">
+      <UniqueIdentifier>{3f85db4e-3757-469f-b2e6-3d985ea01edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldPlane\Header Files">
+      <UniqueIdentifier>{3f54b3a1-2242-49c6-84fb-5b54eff627dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldPlane\Source Files">
+      <UniqueIdentifier>{b024b6d0-9074-4e78-9e78-0a4e6ff907f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{09681b09-7798-4ffe-a3af-04d3f8154d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Header Files">
+      <UniqueIdentifier>{ae90e18b-9bc3-405c-9f83-1837b5d4e666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Source Files">
+      <UniqueIdentifier>{73ca0a01-77d2-4941-bdec-222501b8dd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b7015e70-7d41-49f4-be2f-789a9772aebb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX10Module.h">
+      <Filter>DX10Module\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>DX10Module\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Vertex\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXBase.h">
+      <Filter>DXBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableTex.h">
+      <Filter>RenderHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHandler.h">
+      <Filter>RenderHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferObject.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceAnimationMesh.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceAnimationSubset.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceMesh.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceObject.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceSubset.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenQuad.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subset.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformObject.h">
+      <Filter>Game Object Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceShapeCube.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceShapePlane.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceShapeTriangle.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceSprite.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeCube.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeTriangle.h">
+      <Filter>Game Object Rendering\BasicShapes\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIAnimatedImage.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIComboFrame.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIFrame.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIHandler.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIImage.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIText.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIFrameTest.h">
+      <Filter>GUI\GUIComponents\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIHandlerTest.h">
+      <Filter>GUI\GUIComponents\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISubFrameTest.h">
+      <Filter>GUI\GUIComponents\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Lighting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHandler.h">
+      <Filter>Lighting\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader.h">
+      <Filter>MeshLoader\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowData.h">
+      <Filter>Window\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHandler.h">
+      <Filter>Window\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>TextureHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>TextureHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHandler.h">
+      <Filter>ObjectHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayout.h">
+      <Filter>InputLayoutHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLayoutHandler.h">
+      <Filter>InputLayoutHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Collision\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoader.h">
+      <Filter>MapLoader\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particle Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEphemeral.h">
+      <Filter>Particle Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleHandler.h">
+      <Filter>Particle Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlePersistent.h">
+      <Filter>Particle Rendering\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DayNightHandler.h">
+      <Filter>DayNightHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPlane.h">
+      <Filter>WorldPlane\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationHandler.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Animation\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX10Module.cpp">
+      <Filter>DX10Module\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Vertex\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXBase.cpp">
+      <Filter>DXBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableTex.cpp">
+      <Filter>RenderHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderHandler.cpp">
+      <Filter>RenderHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferObject.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceAnimationMesh.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceAnimationSubset.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceMesh.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceObject.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceSubset.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderObject.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenQuad.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subset.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformObject.cpp">
+      <Filter>Game Object Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceShapeCube.cpp">
+      <Filter>Game Object Rendering\BasicShapes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceShapePlane.cpp">
+      <Filter>Game Object Rendering\BasicShapes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceShapeTriangle.cpp">
+      <Filter>Game Object Rendering\BasicShapes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceSprite.cpp">
+      <Filter>Game Object Rendering\BasicShapes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeCube.cpp">
+      <Filter>Game Object Rendering\BasicShapes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeTriangle.cpp">
+      <Filter>Game Object Rendering\BasicShapes\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIAnimatedImage.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIComboFrame.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIFrame.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIHandler.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIImage.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIText.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIFrameTest.cpp">
+      <Filter>GUI\GUIComponents\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIHandlerTest.cpp">
+      <Filter>GUI\GUIComponents\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISubFrameTest.cpp">
+      <Filter>GUI\GUIComponents\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Lighting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightHandler.cpp">
+      <Filter>Lighting\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>MeshLoader\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHandler.cpp">
+      <Filter>Window\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>TextureHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>TextureHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectHandler.cpp">
+      <Filter>ObjectHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayout.cpp">
+      <Filter>InputLayoutHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputLayoutHandler.cpp">
+      <Filter>InputLayoutHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Collision\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoader.cpp">
+      <Filter>MapLoader\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Particle Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEphemeral.cpp">
+      <Filter>Particle Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleHandler.cpp">
+      <Filter>Particle Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlePersistent.cpp">
+      <Filter>Particle Rendering\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="DayNightHandler.cpp">
+      <Filter>DayNightHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPlane.cpp">
+      <Filter>WorldPlane\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationHandler.cpp">
+      <Filter>Animation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Animation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Animation\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Shaders\BasicAnimation.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicCel.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicColor.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicGUI.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicQuad.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\BasicTexture.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderAnimation.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderCel.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderGUI.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderMultiTex.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderParticle.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\MainShaderShadow.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleBeam.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleBigExplosion.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleFlames.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleGunSparks.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticlePulse.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleSmallExplosion.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleStructs.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ParticleTankExplosion.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\Shader.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ShaderBuffers.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ShaderFunctions.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Shaders\ShaderStates.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

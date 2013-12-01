@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EditorGUI">
+      <UniqueIdentifier>{f3c5f6c0-bb9b-4338-892f-672f5ca72954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorGUI\Header Files">
+      <UniqueIdentifier>{04d57441-4916-449f-a12d-269ced474972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorGUI\Source Files">
+      <UniqueIdentifier>{2b9d5b35-eb22-407a-8d2a-634882a87737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorGUI\EditorGUIComponents">
+      <UniqueIdentifier>{543d6f67-aa74-4cd9-bb44-281b5b0d86fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorGUI\EditorGUIComponents\Header Files">
+      <UniqueIdentifier>{da1af91a-fd76-43d9-b03f-14712e3c2629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorGUI\EditorGUIComponents\Source Files">
+      <UniqueIdentifier>{23ba7fbb-7c82-4e9d-9261-d16ba8b08dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorMapHandler">
+      <UniqueIdentifier>{61e02262-bcf3-4317-9b2a-2acfc276d4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorMapHandler\Header Files">
+      <UniqueIdentifier>{22cfdefc-75e3-4273-96cb-c90515fda005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorMapHandler\Source Files">
+      <UniqueIdentifier>{3259bea8-acfd-4067-85b0-6870e345c607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorFileHandler">
+      <UniqueIdentifier>{aed15d96-9f05-4663-9895-009734e3107c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorFileHandler\Header Files">
+      <UniqueIdentifier>{687008c9-e66c-4f91-9d4a-bd26d789a3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorFileHandler\Source Files">
+      <UniqueIdentifier>{ce552f82-eb97-4f94-b9b5-5d6b2e4c99c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorHandler">
+      <UniqueIdentifier>{7598e47b-99b4-4daf-b115-b086e9e80f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorHandler\Header Files">
+      <UniqueIdentifier>{7846587e-07a1-4941-bef6-c79e8c6a7291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorHandler\Source Files">
+      <UniqueIdentifier>{29d107c1-fb7e-477c-86dd-07e38015802e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditorMessages">
+      <UniqueIdentifier>{55d28a48-b519-44c3-ad32-e8ce662650a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MouseMarker">
+      <UniqueIdentifier>{3491fb8b-242b-4932-91fb-0db7f02c7b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MouseMarker\Header Files">
+      <UniqueIdentifier>{59103b45-4b56-46e2-8d79-2cfbd69bf138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MouseMarker\Source Files">
+      <UniqueIdentifier>{c753d2e8-143b-4930-b3d3-b0894d0032f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditorGUI.h">
+      <Filter>EditorGUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGUITriggerWindow.h">
+      <Filter>EditorGUI\EditorGUIComponents\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGUIUniversalList.h">
+      <Filter>EditorGUI\EditorGUIComponents\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorGUIUtilityBar.h">
+      <Filter>EditorGUI\EditorGUIComponents\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMapHandler.h">
+      <Filter>EditorMapHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorFileHandler.h">
+      <Filter>EditorFileHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorHandler.h">
+      <Filter>EditorHandler\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMessages.h">
+      <Filter>EditorMessages</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMarker.h">
+      <Filter>MouseMarker\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorGUI.cpp">
+      <Filter>EditorGUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGUITriggerWindow.cpp">
+      <Filter>EditorGUI\EditorGUIComponents\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGUIUniversalList.cpp">
+      <Filter>EditorGUI\EditorGUIComponents\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorGUIUtilityBar.cpp">
+      <Filter>EditorGUI\EditorGUIComponents\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMapHandler.cpp">
+      <Filter>EditorMapHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorFileHandler.cpp">
+      <Filter>EditorFileHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorHandler.cpp">
+      <Filter>EditorHandler\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMarker.cpp">
+      <Filter>MouseMarker\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

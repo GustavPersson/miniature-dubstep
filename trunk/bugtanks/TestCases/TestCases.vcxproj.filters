@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Test Code">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DO NOT EDIT/DELETE">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputHandlerTest.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyHandlerTest.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundTest.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3FloatTest.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2DTest.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorListTest.cpp">
+      <Filter>DO NOT EDIT/DELETE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="InputHandlerTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyHandlerTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="KeyTypeTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SoundTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Vec2IntTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Vec3FloatTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Vector2DTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VectorListTest.h">
+      <Filter>Test Code</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
