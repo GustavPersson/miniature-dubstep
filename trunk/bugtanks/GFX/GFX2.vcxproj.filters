@@ -193,6 +193,9 @@
     <Filter Include="Shaders">
       <UniqueIdentifier>{b7015e70-7d41-49f4-be2f-789a9772aebb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shader Handler">
+      <UniqueIdentifier>{d90c9954-d079-4200-b845-0a0e4250a0f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DX10Module.h">
@@ -378,6 +381,12 @@
     <ClInclude Include="Joint.h">
       <Filter>Animation\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Shader Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderHandler.h">
+      <Filter>Shader Handler</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DX10Module.cpp">
@@ -553,6 +562,12 @@
     </ClCompile>
     <ClCompile Include="Joint.cpp">
       <Filter>Animation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Shader Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderHandler.cpp">
+      <Filter>Shader Handler</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

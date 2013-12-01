@@ -82,7 +82,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="DX10Module.h" />
+    <ClInclude Include="Effect.h" />
     <ClInclude Include="Settings.h" />
+    <ClInclude Include="ShaderHandler.h" />
     <ClInclude Include="Vertex.h" />
     <ClInclude Include="DXBase.h" />
     <ClInclude Include="RenderableTex.h" />
@@ -145,6 +147,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DX10Module.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="ShaderHandler.cpp" />
     <ClCompile Include="Vertex.cpp" />
     <ClCompile Include="DXBase.cpp" />
     <ClCompile Include="RenderableTex.cpp" />
