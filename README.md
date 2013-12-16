@@ -13,6 +13,7 @@ miniature-dubstep
  */
 
 
-Packa upp boost, pthread och FMOD från miniature-dubstep-files i trunken för att få länkningar att funka.
+Packa upp boost, pthread och FMOD från miniature-dubstep-files i trunken för att få länkningar att funka, kopiera pthreads manuellt till target.
 
-Shaders kompilerar inte.
+Nätverk funkar typ inte, så sätt ignore-network till 1 i configen
+
