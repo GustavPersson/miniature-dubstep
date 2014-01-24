@@ -52,6 +52,8 @@ Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Installer", "Installer\Inst
 		{B58B0DAF-415E-4DED-9D86-4F6F1E0AC861} = {B58B0DAF-415E-4DED-9D86-4F6F1E0AC861}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogicTest", "LogicTest\SoundTest2.vcxproj", "{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -252,6 +254,18 @@ Global
 		{DC033412-6CFE-4D67-B740-5409E844A453}.Release|Win32.ActiveCfg = Release|x86
 		{DC033412-6CFE-4D67-B740-5409E844A453}.Release|x86.ActiveCfg = Release|x86
 		{DC033412-6CFE-4D67-B740-5409E844A453}.Release|x86.Build.0 = Release|x86
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Debug|Win32.ActiveCfg = Debug|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Debug|Win32.Build.0 = Debug|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Debug|x86.ActiveCfg = Debug|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Debug|x86.Build.0 = Debug|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Release|Win32.ActiveCfg = Release|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Release|Win32.Build.0 = Release|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Release|x86.ActiveCfg = Release|Win32
+		{601EBB8A-6BC5-42C2-A270-E0E45C0CF622}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

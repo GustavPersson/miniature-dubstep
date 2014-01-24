@@ -1,6 +1,6 @@
 /**
 * @file
-* @author Gustav Persson <ninjamuff@gmail.com>
+* @author Gustav Persson <gustav@alltomminrov.se>
 * @author Matteus Magnusson <senth.wallace@gmail.com>
 * @version 1.0
 * Copyright (©) A-Team.

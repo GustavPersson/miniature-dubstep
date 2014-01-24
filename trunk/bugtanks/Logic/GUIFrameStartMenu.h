@@ -1,7 +1,7 @@
 #pragma once
 /**
 * @file
-* @author Gustav Persson <ninjamuff@gmail.com>
+* @author Gustav Persson <gustav@alltomminrov.se>
 * @version 1.0
 * Copyright (©) A-Team.
 *
