@@ -870,9 +870,10 @@ void Application::increaseFinishedLoading()
 void Application::resetGame()
 {
 	//Close down the network.
+#ifdef USE_NETWORK
 	mpNetwork->resetNetwork();
 	removeNetworkEvents();
-
+#endif
 	//Handle the last network events.
 	mpEventManager->tick(static_cast<unsigned long>(logic::EventManager::KINFINITE));
 
@@ -928,7 +929,7 @@ void Application::setCommandWindow()
 	HWND hWnd = GetConsoleWindow();
 
 #ifdef _DEBUG
-	MoveWindow(hWnd, 2000, 100, 1200, 900, TRUE);
+	MoveWindow(hWnd, 100, 100, 1200, 900, TRUE);
 #else
 	ShowWindow(hWnd, SW_HIDE);
 #endif // _DEBUG
