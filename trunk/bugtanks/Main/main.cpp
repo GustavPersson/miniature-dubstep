@@ -53,7 +53,7 @@ int main()
 #pragma warning(push)
 #ifdef _DEBUG
 #pragma warning(disable: 4189)
-	int * banan = myNew int;
+	int * banan = myNew int; //bevisa att minnesläckhittaren funkar.
 #endif
 	return 0;
 }

@@ -242,17 +242,16 @@ const GUIHandlerStartMenu &GUIHandlerStartMenu::operator =(const logic::GUIHandl
 	}
 	return *this;
 }
-void GUIHandlerStartMenu::updateFrames(float deltaTime)
-{
+void GUIHandlerStartMenu::updateFrames(float deltaTime) {
 	GUIHandler::updateFrames(deltaTime);
 
 	static float refreshTime = 2.0f;
-	if(this->mCurrentMenu == this->mMenus["Main"])
-	{
+	if(this->mCurrentMenu == this->mMenus["Main"]) {
 
 		refreshTime-=deltaTime;
 		//if(refreshTime<=0)
 		//{
+#ifdef USE_NETWORK
 			this->mServerLookup->refresh(deltaTime);
 			vector<network::ServerInfo> serverList = this->mServerLookup->getServerList();
 			
@@ -272,10 +271,10 @@ void GUIHandlerStartMenu::updateFrames(float deltaTime)
 			}
 			refreshTime=2.0f;
 		//}
+#endif
 	}
 
-	if(this->mCurrentMenu == this->mMenus["Lobby"])
-	{
+	if(this->mCurrentMenu == this->mMenus["Lobby"]) {
 		// update the players.
 		vector<network::IDstructure> vIDs = network::IdManager::getInstance()->getIds();
 		if(0 < vIDs.size())
